@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="120px" viewBox="0 0 102 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>@2xfiles icon-DOCX</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5895FF" offset="0%"></stop>
+            <stop stop-color="#387CF4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M60,0 L85.2928932,0 C93.0248797,0 100,6.97512028 100,14.7071068 L100,40 L60,0 Z" id="path-2"></path>
+        <filter x="-10.0%" y="-15.0%" width="120.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0909637238 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="files-icon-DOCX">
+            <g id="PDF">
+                <path d="M60,0 L100,40 L100,106 C100,113.731986 93.7319865,120 86,120 L14,120 C6.2680135,120 0,113.731986 0,106 L0,14 C0,6.2680135 6.2680135,0 14,0 L60,0 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <g id="Path" transform="translate(80.000000, 20.000000) scale(-1, -1) translate(-80.000000, -20.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill-opacity="0.4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+            <path d="M20,55 L60,55 L60,60 L20,60 L20,55 Z M20,65 L60,65 L60,70 L20,70 L20,65 Z M20,75 L60,75 L60,80 L20,80 L20,75 Z M20,85 L40,85 L40,90 L20,90 L20,85 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

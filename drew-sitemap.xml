@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://drewgoff.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/index.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/about.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/lab.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/music.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/resume.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/contact.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/onemain-mobile.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/onemain-elements.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://drewgoff.com/simona-de-silvestro.html</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

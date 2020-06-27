@@ -1,0 +1,44 @@
+html { font-size: 62.5%; }
+html, body { height: 100%; min-width: 320px;  }
+
+body {
+   background-color: $light-grey-blue;
+   color: $white;
+   display: flex;
+   flex-direction: column;
+   font-family: $body-font;
+   font-size: 17px;
+   line-height: 1.6;
+}  
+
+a {
+  color: $medium-pink;
+  text-decoration: none;
+  &:hover {
+	color: $dark-pink;
+    outline: 0;
+  }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { display: inline; }
+
+hr { border: 0.5px solid $dark-pink; margin-bottom: 10px; }
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: $super-light-grey;
+  outline: 1px solid slategrey;
+}

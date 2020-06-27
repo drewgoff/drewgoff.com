@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>modal-window-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="modal-window-icon" transform="translate(1.000000, 0.000000)">
+            <g id="Rectangle" transform="translate(7.000000, 0.000000)">
+                <g id="path-1-link" fill-rule="nonzero">
+                    <rect id="path-1" x="0.71428571" y="0" width="19.2857143" height="18.5142857" rx="1"></rect>
+                </g>
+                <rect stroke="#F2F2F2" stroke-width="2" x="1.71428571" y="1" width="17.2857143" height="16.5142857" rx="1"></rect>
+            </g>
+            <g id="Path-2" transform="translate(0.000000, 12.000000)">
+                <g id="path-3-link" fill-rule="nonzero">
+                    <polyline id="path-3" points="4.00741002 0.3428571 0 0.3428571 0 15 15.4285714 15 15.4285714 10.4017827"></polyline>
+                </g>
+                <g id="path-3-link" stroke="#E5E5E5" stroke-width="2">
+                    <polyline id="path-3" points="4.00741002 0.3428571 0 0.3428571 0 15 15.4285714 15 15.4285714 10.4017827"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LinkedIn">
+            <rect id="Rectangle" stroke="#8A8A8A" x="0.5" y="0.5" width="39" height="39" rx="8"></rect>
+            <path d="M12.2142857,33 L6,33 L6,12.2857143 L12.2142857,12.2857143 L12.2142857,33 Z M35,33 L28.7857143,33 L28.7857143,21.9344286 C28.7857143,19.051 27.7582857,17.6155 25.7220714,17.6155 C24.1084286,17.6155 23.0851429,18.4192143 22.5714286,20.0287143 C22.5714286,22.6428571 22.5714286,33 22.5714286,33 L16.3571429,33 C16.3571429,33 16.44,14.3571429 16.3571429,12.2857143 L21.2622857,12.2857143 L21.6413571,16.4285714 L21.7697857,16.4285714 C23.0437143,14.3571429 25.0799286,12.9527143 27.8722143,12.9527143 C29.9954286,12.9527143 31.7126429,13.5430714 33.0238571,15.0262143 C34.3433571,16.5114286 35,18.5041429 35,21.3026429 L35,33 Z" id="Shape" fill="#979797" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#979797" cx="9.10714286" cy="7.10714286" r="3.10714286"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,138 @@
+.full-column {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+/* Create two equal columns that floats next to each other */
+.column-a, .column-b {
+  float: left;
+  height: 140px;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+.emphasis { color: $dark-pink; font-size: 5rem;	}
+
+p.onemain-ani-title {
+  color: $dark-black-blue; 
+  font-family: $body-font;
+  font-size: 3rem;
+  font-weight: $regular-font-weight;
+  letter-spacing: 3px;
+  line-height: 0.9;  
+  padding-top: 13px;
+  text-align: left;
+}
+
+
+@media screen and (max-width:550px) {
+ .column-a, .column-b {
+  float: left;
+  height: 110px;  
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  width: 100%;
+ }
+
+ p.onemain-ani-title {
+  padding-top: 7px; 
+ }
+}
+
+.red-preloader {
+  animation: fadeInFromFifty 2.0s linear;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  fill: #c4203b;
+}
+
+.blue-4-preloader {
+  animation: fadeInFromFifty 2.0s linear;
+  animation-delay: 1.4s; 
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  fill: #69c5ea;
+}
+
+.blue-3-preloader {
+  animation: fadeInFromFifty 2.0s linear;
+  animation-delay: 1.8s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  fill: #0090cc;
+}
+
+.blue-2-preloader {
+  animation: fadeInFromFifty 2.0s linear;
+  animation-delay: 2.2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  fill: #007bc1;
+}
+
+.blue-1-preloader {
+  animation: fadeInFromFifty 2.0s linear;
+  animation-delay: 2.6s; 
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  fill: #004370;
+}
+
+@-webkit-keyframes fadeInFromFifty {
+ 50% {
+  display: block;
+  opacity: 0.50; 
+ }
+
+ 100% {
+  display: block;
+  opacity: 1; 
+ }
+}
+
+@-moz-keyframes fadeInFromFifty {
+ 50% {
+  display: block;
+  opacity: 0.50;
+ }
+
+ 100% {
+  display: block;
+  opacity: 1; 
+ } 
+}
+
+@-o-keyframes fadeInFromFifty {
+ 50% {
+  display: none;
+  opacity: 0.50; 
+ }
+ 
+ 100% {
+  display: block;
+  opacity: 1; 
+  } 
+}
+
+@keyframes fadeInFromFifty {
+ 50% {
+  display: block;
+  opacity: 0.50; 
+ }
+ 
+ 100% {
+  display: block;
+  opacity: 1; 
+ } 
+}				  
