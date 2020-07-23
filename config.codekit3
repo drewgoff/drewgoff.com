@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.htaccess",
+		"oF": 0
+		},
 	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -23,8 +39,8 @@
 		"oA": 0,
 		"oAP": "/android-chrome-192x192.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -34,8 +50,8 @@
 		"oA": 0,
 		"oAP": "/android-chrome-256x256.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -45,8 +61,8 @@
 		"oA": 0,
 		"oAP": "/apple-touch-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -130,8 +146,8 @@
 		"oA": 0,
 		"oAP": "/favicon-16x16.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -141,8 +157,8 @@
 		"oA": 0,
 		"oAP": "/favicon-32x32.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -152,6 +168,46 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon.ico",
+		"oF": 0
+		},
+	"/files/Drew-Goff-resume.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/Drew-Goff-resume.docx",
+		"oF": 0
+		},
+	"/files/PDF-templates/2020-Resume-UI-Designer.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/PDF-templates/2020-Resume-UI-Designer.sketch",
+		"oF": 0
+		},
+	"/files/PDF-templates/2020-Resume.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/PDF-templates/2020-Resume.sketch",
+		"oF": 0
+		},
+	"/files/reference-letters/rec_drewgoff.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/reference-letters/rec_drewgoff.pdf",
+		"oF": 0
+		},
+	"/files/reference-letters/Reference Letter-Drew.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/reference-letters/Reference Letter-Drew.pdf",
 		"oF": 0
 		},
 	"/files/UXUI-Designer__Resume-2020.pdf": {
@@ -178,7 +234,7 @@
 		"oAP": "/images/books/add.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/books/svg-animations.jpg": {
@@ -189,7 +245,7 @@
 		"oAP": "/images/books/svg-animations.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/books/ux-strategy.png": {
@@ -198,8 +254,8 @@
 		"oA": 0,
 		"oAP": "/images/books/ux-strategy.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -231,7 +287,7 @@
 		"oAP": "/images/business-card/drew-biz.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/business-card/email.svg": {
@@ -260,8 +316,8 @@
 		"oA": 0,
 		"oAP": "/images/deaconess-hospital/hospital-opening.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -273,7 +329,7 @@
 		"oAP": "/images/deaconess-hospital/hospital-research.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-1.jpg": {
@@ -284,7 +340,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-10.jpg": {
@@ -295,7 +351,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-11.jpg": {
@@ -306,7 +362,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-12.jpg": {
@@ -317,7 +373,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-12.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-2.jpg": {
@@ -328,7 +384,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-3.jpg": {
@@ -339,7 +395,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-4.jpg": {
@@ -350,7 +406,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-5.jpg": {
@@ -361,7 +417,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-6.jpg": {
@@ -372,7 +428,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-7.jpg": {
@@ -383,7 +439,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-7.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-8.jpg": {
@@ -394,7 +450,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-8.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-9.jpg": {
@@ -405,7 +461,7 @@
 		"oAP": "/images/deaconess-hospital/polariods/deaconess-thumb-9.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/first-shot.jpg": {
@@ -416,7 +472,7 @@
 		"oAP": "/images/first-shot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/headshots/about-photo.jpg": {
@@ -427,7 +483,7 @@
 		"oAP": "/images/headshots/about-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/headshots/circle-headshot.png": {
@@ -436,8 +492,8 @@
 		"oA": 0,
 		"oAP": "/images/headshots/circle-headshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -457,8 +513,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/close-button.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -528,8 +584,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/modal-window-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -569,8 +625,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/pdf-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -610,8 +666,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/word-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -631,8 +687,8 @@
 		"oA": 0,
 		"oAP": "/images/lab/business-card.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -642,8 +698,8 @@
 		"oA": 0,
 		"oAP": "/images/lab/button-collection.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -653,8 +709,8 @@
 		"oA": 0,
 		"oAP": "/images/lab/desktop-to-mobile-navigation.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -664,8 +720,8 @@
 		"oA": 0,
 		"oAP": "/images/lab/emerge-component.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -675,8 +731,8 @@
 		"oA": 0,
 		"oAP": "/images/lab/multiple-modal-windows.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -686,8 +742,8 @@
 		"oA": 0,
 		"oAP": "/images/lab/music-single-component.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -759,7 +815,7 @@
 		"oAP": "/images/music-singles/missy-single-box-shot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/music-singles/music-bg.jpg": {
@@ -770,7 +826,7 @@
 		"oAP": "/images/music-singles/music-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/music-singles/soulmate-blurred-bg.jpg": {
@@ -781,7 +837,7 @@
 		"oAP": "/images/music-singles/soulmate-blurred-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/music-singles/Soulmate-front-cover.jpg": {
@@ -792,7 +848,7 @@
 		"oAP": "/images/music-singles/Soulmate-front-cover.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/music-singles/web-bg.jpg": {
@@ -803,7 +859,7 @@
 		"oAP": "/images/music-singles/web-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/onemain-elements/ele-buttons-full.png": {
@@ -812,8 +868,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-buttons-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -823,8 +879,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-buttons-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -834,8 +890,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-color-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -845,8 +901,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-colors-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -856,8 +912,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-icons-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -867,8 +923,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-icons-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -878,8 +934,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-widget-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -889,8 +945,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/ele-widgets-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -900,8 +956,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/elements-colors.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -911,8 +967,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/elements-portfolio-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -922,8 +978,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/elements-wireframe.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -933,8 +989,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/mobile-off-canvas.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -944,8 +1000,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-elements/smacss-file-structure.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -955,8 +1011,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/account-management.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -966,8 +1022,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/login.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -977,8 +1033,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/make-a-payment.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -988,8 +1044,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/mobile-portfolio-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -999,8 +1055,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/onemain-account-management-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1010,8 +1066,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/onemain-make-a-payment-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1021,8 +1077,8 @@
 		"oA": 0,
 		"oAP": "/images/onemain-mobile/onemain-mobile-wireframes.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1032,8 +1088,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/iPhone 6.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1043,8 +1099,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/old/recovery-dashboard-preview-two.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1054,8 +1110,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/old/recovery-dashboard-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1065,8 +1121,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/old/recovery-listings-preview-two.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1076,8 +1132,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/old/recovery-listings-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1087,7 +1143,7 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/rec-ani-10.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"/images/sigma-recovery/recovery-dashboard-full.png": {
 		"ft": 32768,
@@ -1095,8 +1151,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-dashboard-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1106,8 +1162,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-dashboard-preview-two.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1117,8 +1173,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-eq-profile-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1128,8 +1184,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-listings-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1139,8 +1195,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-listings-preview-two.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1150,8 +1206,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-login-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1161,8 +1217,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-login-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1172,8 +1228,8 @@
 		"oA": 0,
 		"oAP": "/images/sigma-recovery/recovery-portfolio-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1185,7 +1241,7 @@
 		"oAP": "/images/simona-de-silvestro/1440-simona.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/simona-de-silvestro/header-line-2.png": {
@@ -1194,8 +1250,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/header-line-2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1205,8 +1261,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-about-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1216,8 +1272,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-about-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1227,8 +1283,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-colors.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1238,8 +1294,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-photos-full.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1249,8 +1305,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-photos-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1260,8 +1316,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-portfolio-preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1271,8 +1327,8 @@
 		"oA": 0,
 		"oAP": "/images/simona-de-silvestro/simona-wireframe.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1381,8 +1437,8 @@
 		"oA": 0,
 		"oAP": "/mstile-150x150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1979,10 +2035,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 616435417.96516895,
-	"displayValue": "drewgoff-modules.com",
+	"displayValue": "drewgoff.com",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/apple-touch-icon.png",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 617221760.13352704
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
