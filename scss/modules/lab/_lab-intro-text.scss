@@ -1,0 +1,37 @@
+//-- Private variables --//
+$body-font:  'Nunito', sans-serif;
+$regular-font-weight: 300;  
+//----------------------//
+
+.aligner {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.aligner-item {
+  max-width: 50%;
+  padding: 10px;
+}
+
+p.lab-intro-text {
+  font-family: $body-font;
+  font-size: 1.5rem;
+  font-weight: $regular-font-weight;
+}
+
+@media screen and (max-width:400px) {
+ .aligner-item:nth-child(1) {
+  padding: 3px;
+  width: 30%;
+ }
+ .aligner-item:nth-child(2) {
+  padding: 3px;
+  width: 70%;
+ }
+ p.lab-intro-text {
+  font-family: $body-font;
+  font-size: 1.3rem;
+  font-weight: $regular-font-weight;
+ }
+}

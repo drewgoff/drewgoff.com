@@ -1,0 +1,69 @@
+/* ============================
+ Desktop: Navigation Section
+=============================*/		
+.desktop-nav-container {
+  align-content: flex-start;
+  align-items: flex-start; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.desktop-nav-item:nth-child(1) {
+  align-self: auto;
+  flex: 1 1 auto;
+  height: 80px; 
+}
+
+.desktop-nav-item:nth-child(2) {
+  align-self: auto;
+  flex: 2 1 auto;
+  height: 80px; 
+}
+
+.desktop-nav {
+  float: right; 
+  margin-right: 0.9rem;
+  margin-top: 1.5em;
+}
+
+.top-nav {
+
+  //-- Private variables --//
+  $white-grey:	    #c5c5c5;
+  $title-font:	   	'Anton', sans-serif;
+  //----------------------//
+
+  color: $white-grey;
+  font-family: $title-font;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  padding-left: 40px;
+  transition: 0.3s; 
+}
+
+.top-nav:hover {
+  
+  //-- Private variables --//
+  $white:   		#f2f2f2;
+  //----------------------//
+	
+  color: $white;
+  cursor: pointer; 
+}
+
+.active-link { $dark-pink:  #ff006b; color: $dark-pink; }		
+.active-link:hover { $dark-pink:  #ff006b; color: $dark-pink; }		
+.mobile-nav { display: none; }
+
+@media only screen and (max-width: 900px) {
+ .desktop-nav { margin-top: 1.6em; }
+ .top-nav { font-size: 1.6rem; padding-left: 30px;  } 
+ .active-link { $dark-pink:  #ff006b; color: $dark-pink; }
+}	   
+
+@media only screen and (max-width: 767px) {
+  .desktop-nav { display: none; } 
+  .mobile-nav  { display: inline-block; float: right; }
+}

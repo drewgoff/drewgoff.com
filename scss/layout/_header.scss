@@ -1,11 +1,17 @@
 header {
- background: linear-gradient(to bottom, $dark-grey-blue 0%, $dark-black-blue 100%);  
- border-bottom: 1.5px solid $dark-grey-blue;
- box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
- height: 80px;
- position: fixed;
- width: 100%;
- z-index: 3;
+  
+  //-- Private variables --//
+  $dark-grey-blue: 	 #313133;
+  $dark-black-blue:  #252526;
+  //----------------------//
+  
+  background: linear-gradient(to bottom, $dark-grey-blue 0%, $dark-black-blue 100%);  
+  border-bottom: 1.5px solid $dark-grey-blue;
+  box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 @media only screen and (max-width: 767px)  {

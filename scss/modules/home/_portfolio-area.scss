@@ -1,0 +1,52 @@
+//-- Private variables --//
+  $light-pale-grey:  #7c7c81;
+  $light-grey-grey:  #636367;
+  $white:   	     #f2f2f2;
+  $off-white:		 #e5e5e5;
+  $body-font:		 'Nunito', sans-serif;
+//----------------------//
+
+/*
+* ====================
+    Portfolio Area
+* ====================
+*/
+
+.portfolio-wrapper { width:100%; }
+
+.portfolio-item {
+  cursor: pointer;
+  float: left;
+  padding: .5em;  
+  width: 50%;
+}
+
+.portfolio-card {
+  background-image: linear-gradient(-180deg, $light-pale-grey 0%, $light-grey-grey 100%);	
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);  	
+  padding: 10px;
+}
+
+.portfolio-item h2 {
+  color: $white;	
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin: 7px 0 0 0;  
+  padding: 0;
+}
+
+.portfolio-item p {
+  color: $off-white;	
+  font-family: $body-font;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+
+@media screen and (max-width:1340px) { .portfolio-item { width: 50%; } }
+@media screen and (max-width:885px)  { .portfolio-item p { font-size: 1.2rem; } }
+@media screen and (max-width:860px)  { .portfolio-item { width: 100%; } .portfolio-item p { font-size: 1.5rem; } }
