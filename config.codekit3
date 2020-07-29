@@ -310,6 +310,50 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/deaconess-hospital/angel-mounds.jpg": {
+		"ft": 16384,
+		"iS": 304570,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/angel-mounds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/deaconess-hospital/birds.jpg": {
+		"ft": 16384,
+		"iS": 173714,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/birds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/deaconess-hospital/camel.jpg": {
+		"ft": 16384,
+		"iS": 183763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/camel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/deaconess-hospital/fields.jpg": {
+		"ft": 16384,
+		"iS": 230896,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/fields.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/deaconess-hospital/hospital-opening.png": {
 		"ft": 32768,
 		"iS": 445910,
@@ -330,6 +374,38 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/images/deaconess-hospital/modal-symbol.png": {
+		"ft": 32768,
+		"iS": 5072,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/modal-symbol.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/deaconess-hospital/modal-symbol.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/deaconess-hospital/modal-symbol.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/deaconess-hospital/monkey.jpg": {
+		"ft": 16384,
+		"iS": 168436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/monkey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/deaconess-hospital/polariods/deaconess-thumb-1.jpg": {
@@ -462,6 +538,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/images/deaconess-hospital/red-panda.jpg": {
+		"ft": 16384,
+		"iS": 222725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/red-panda.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/deaconess-hospital/sun-bear.jpg": {
+		"ft": 16384,
+		"iS": 271484,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/sun-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/deaconess-hospital/turtle.jpg": {
+		"ft": 16384,
+		"iS": 274304,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/turtle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/deaconess-hospital/wesselman.jpg": {
+		"ft": 16384,
+		"iS": 482668,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/deaconess-hospital/wesselman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/first-shot.jpg": {
@@ -1412,6 +1532,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/prism-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/prism-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/prism.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1639,6 +1770,75 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/scss/components/_path-card.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_path-card.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/dg__module-styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/dg__module-styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/scss/dg__module-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/dg__module-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/scss/dg__module-styles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scss/dg__module-styles.css.map",
+		"oF": 0
+		},
+	"/scss/dg__module-styles.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/dg__module-styles.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/scss/dg__module-styles.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/dg__module-styles.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/scss/dg__module-styles.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scss/dg__module-styles.min.css.map",
+		"oF": 0
 		},
 	"/scss/dg__module-styles.scss": {
 		"aP": 0,
@@ -2036,7 +2236,7 @@
 "projectAttributes": {
 	"creationDate": 616435417.96516895,
 	"displayValue": "drewgoff.com",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 617221760.13352704

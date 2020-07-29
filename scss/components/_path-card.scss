@@ -1,0 +1,258 @@
+/*=========================
+  PathCard flexbox Container
+=========================*/
+.path-card__flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.path-card__flex-item {
+  flex-grow: 1;
+  flex-basis: calc(100% * 0.33 - 20px);
+  background-image: linear-gradient(180deg, #7c7c81 0%, #4a4a4d 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 4px;   
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) {
+	.path-card__flex-item {
+	  flex-basis: calc(100% * 0.5 - 20px);
+	}
+   }
+
+@media only screen and (max-width: 800px) {
+	.path-card__flex-item {
+	  flex-basis: calc(100%);
+	}
+   }
+
+.wide-photo {
+  background-image: url(../images/deaconess-hospital/angel-mounds.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;   
+  height: 557px;
+  width: 100%;
+} 
+
+
+
+.wesselman {
+  background-image: url(../images/deaconess-hospital/wesselman.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;   
+  height: 557px;
+  width: 100%;
+ } 
+
+
+
+.padding-10 { padding: 10px; }
+.text-center { text-align: center; }
+.path-card__bg { 
+	background-color: #313133; 
+	padding-top: 25px;
+	padding-bottom: 60px;
+}
+
+/*==========================
+  PathCard Title Containers
+==========================*/
+.path-card__title-container {
+  width: 300px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -60px;
+}
+
+.path-card__container-a {
+  width: 250px;
+  height: 50px; 
+  background-image: linear-gradient(180deg, rgba(255,77,121,0.95) 0%, rgba(255,51,102,0.85) 50%, rgba(234,46,109,0.75) 100%);
+  float: left;
+}
+
+.path-card__container-b {
+  width: 50px;
+  height: 50px; 
+  background-image: linear-gradient(180deg, rgba(255,77,121,0.95) 0%, rgba(255,51,102,0.85) 50%, rgba(234,46,109,0.75) 100%);    
+  float: left;
+  transform: skew(20deg);
+  margin-left: -9px;
+}
+
+
+.path-card__title-lg {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  z-index: 2;
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 3px;  
+}
+
+.path-card__title-container-lg {
+  position: absolute;
+  z-index: 2;
+  margin-top: -60px;
+}
+
+.path-card__container-a-lg {
+  width: 330px;
+  height: 50px; 
+  background-image: linear-gradient(180deg, rgba(255,77,121,0.95) 0%, rgba(255,51,102,0.85) 50%, rgba(234,46,109,0.75) 100%);
+  float: left;
+}
+
+.path-card__container-b-lg {
+  width: 50px;
+  height: 50px; 
+  background-image: linear-gradient(180deg, rgba(255,77,121,0.95) 0%, rgba(255,51,102,0.85) 50%, rgba(234,46,109,0.75) 100%);    
+  float: left;
+  transform: skew(20deg);
+  margin-left: -9px;
+}
+
+.path-card__icon__lg {
+  position: absolute;
+  z-index: 4;
+  margin-left: 300px;
+  margin-top: -15px;
+}
+
+@media only screen and (max-width: 500px) {
+
+	.path-card__title-lg {
+	  font-family: 'Nunito', sans-serif;
+	  font-weight: 300;
+	  font-size: 24px;
+	  color: #FFFFFF;
+	  letter-spacing: 2px;
+	  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+	  z-index: 2;
+	  position: absolute;
+	  padding-left: 12px;
+	  padding-top: 7px;  
+	}
+	
+	.path-card__title-container-lg {
+	  position: absolute;
+	  z-index: 2;
+	  margin-top: -60px;
+	}
+	
+	.path-card__container-a-lg {
+	  width: 279px;
+	  height: 50px; 
+	  background-image: linear-gradient(180deg, rgba(255,77,121,0.95) 0%, rgba(255,51,102,0.85) 50%, rgba(234,46,109,0.75) 100%);
+	  float: left;
+	}
+	
+	.path-card__container-b-lg {
+	  width: 50px;
+	  height: 50px; 
+	  background-image: linear-gradient(180deg, rgba(255,77,121,0.95) 0%, rgba(255,51,102,0.85) 50%, rgba(234,46,109,0.75) 100%);    
+	  float: left;
+	  transform: skew(20deg);
+	  margin-left: -9px;
+	}
+	
+	.path-card__icon__lg {
+	  position: absolute;
+	  z-index: 4;
+	  margin-left: 250px;
+	  margin-top: -15px;
+	}
+}
+
+/*==========================
+  PathCard Title 
+==========================*/
+.path-card__title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 31px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  z-index: 2;
+  position: absolute;
+  padding-left: 12px;
+}
+
+.path-card__icon {
+  position: absolute;
+  z-index: 4;
+  margin-left: 220px;
+  margin-top: -15px;
+}
+
+
+/*==========================
+  PathCard Title Strips
+==========================*/
+.pinkStrip_50-one, .pinkStrip_50-two, .pinkStrip_50-three,
+.pinkStrip_50-four, .pinkStrip_50-five, .pinkStrip_50-six,
+.pinkStrip_25-seven, .pinkStrip_25-eight, .pinkStrip_25-nine,
+.pinkStrip_25-ten {
+  width: 15px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+}
+
+.pinkStrip_50-one {
+  background: rgba(255,77,121,0.65);
+  margin-left: 0px;
+}
+
+.pinkStrip_50-two {
+  background: rgba(255,77,121,0.65);
+  margin-left: 30px;
+}
+
+.pinkStrip_50-three {
+  background: rgba(255,77,121,0.55);
+  margin-left: 60px;
+}
+
+.pinkStrip_50-four {
+  background: rgba(255,77,121,0.55);
+  margin-left: 90px;
+}
+
+.pinkStrip_50-five {
+  background: rgba(255,77,121,0.45);
+  margin-left: 120px;
+}
+
+.pinkStrip_50-six {
+  background: rgba(255,77,121,0.45);
+  margin-left: 150px;
+}
+
+.pinkStrip_25-seven {
+  background: rgba(255,77,121,0.35);
+  margin-left: 180px;
+}
+
+.pinkStrip_25-eight {
+  background: rgba(255,77,121,0.35);
+  margin-left: 210px;
+}
+
+.pinkStrip_25-nine {
+  background: rgba(255,77,121,0.25);
+  margin-left: 240px;
+}
+
+.pinkStrip_25-ten {
+  background: rgba(255,77,121,0.25);
+  margin-left: 270px;
+}
