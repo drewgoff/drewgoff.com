@@ -1294,6 +1294,32 @@ fieldset {
   margin-left: 270px;
 }
 
+/*==========================
+  Polariods opening
+==========================*/
+.polariod__flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
+.polariod__flex-item {
+  flex: 1 1 20%;
+  align-self: auto;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .polariod__flex-item {
+    order: 0;
+    flex: 1 1 145px;
+    align-self: auto;
+    margin: 10px;
+  }
+}
 /*
 * ====================
    Intro Title Area
