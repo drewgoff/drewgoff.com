@@ -3,66 +3,94 @@
 	<head>
 
 	  <!-- Meta Tags
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      –––––––––––––––––––––––––––––––––––––– -->
 	   <meta charset="UTF-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	   <meta name="description" content="The Deaconess Hospital portfolio page of UX/UI Designer Drew Goff">
-	   <meta name="keywords" content="UX/UI Designer, ux/ui designer, Drew Goff, drew goff, Indianapolis, Westfield">
+	   <meta name="description" content="The Deaconess Hospital portfolio page of UX/UI Developer Drew Goff">
+	   <meta name="keywords" content="UX/UI Developer, ux/ui developer, Drew Goff, drew goff, Indianapolis, Westfield, Peoria, Washington DC">
 	   <meta name="author" content="Drew Goff">
 	   <meta name="msapplication-TileColor" content="#ea2e6d">
 	   <meta name="theme-color" content="#252526">
 	   
+	  <!-- Facebook Meta Tags
+	  –––––––––––––––––––––––––––––––––––––– -->   
+	   <meta property="og:title" content="Deaconess Children's Hospital">
+	   <meta property="og:description" content="My designs and photography work for the Deaconess Children's Hopital">
+	   <meta property="og:image" content="https://drewgoff.com/images/deaconess-hospital/hospital-opening.png">
+	   <meta property="og:url" content="https://drewgoff.com/deaconess-hospital.html">
+	   
 	  <!-- Link Tags
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      –––––––––––––––––––––––––––––––––––––– -->
 	   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 	   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	   <link rel="manifest" href="/site.webmanifest">
 	   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252526">
-	   
-	   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
 	   <title>Drew Goff Portfolio: Deaconess Hospital</title>
 
-	  <!-- Global site tag (gtag.js) - Google Analytics
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132143241-1"></script>
+	  <!-- Google Analytics
+      –––––––––––––––––––––––––––––––––––––– -->
+	   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132143241-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 		
 		  gtag('config', 'UA-132143241-1');
-		</script>
+	   </script>
 
-	  <!-- SMACSS & OOCSS Style sheet
-	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	  <link rel="stylesheet" href="css/dg__module-styles.css">	
+	  <!-- Google Fonts
+      –––––––––––––––––––––––––––––––––––––– -->	   
+	   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+	  <!-- Compiled SCSS Module Stylesheet
+      –––––––––––––––––––––––––––––––––––––– -->
+	   <link rel="stylesheet" href="css/dg__module-styles.css">	
 	  		 	   	   
 	</head>
 
-	<body>
-	 
-	 <header>     
-	  <section>
-	      
-	   <div class="desktop-nav-container">
+
+	<body class="preload-transitions">
+  
+	   
+	 <!--=--=--=--=--=--=--=--=--=--=--=
+	 ---=---=---=---=---=---=---=---=---
+		 Website Navigation Section     
+	 =---=---=---=---=---=---=---=---=--
+	 =--=--=--=--=--=--=--=--=--=--=--->
 	  
-	    <div class="desktop-nav-item">
+	  
+	 <header>     
+	  <section>   
+	   
+	   <nav class="desktop-nav-container">
+	 
+	 
+	    <!---^---^---^---^---^---^---^---
+	       Log for desktop and mobile
+        ^---^---^---^---^---^---^---^--->  
+        
+	    <div aria-label="Where the logo and title is" class="desktop-nav-item">
 	     <a href="index.html">
 	      <div id="logo">
 		   <div id="name">DREW GOFF</div> 
-		   <div id="title">UX<span class="highlight">/</span>UI Designer</div>
-	      </div><!--logo-->
+		   <div id="title">UX<span class="highlight">/</span>UI Developer</div>
+	      </div> 
 	     </a>
-	    </div><!--desktop-nav-item-->
+	    </div>
 	  
-	    <div class="desktop-nav-item">
+	 
+	    <!---^---^---^---^---^---^---^---
+	         Desktop navigation menu
+        ^---^---^---^---^---^---^---^---> 
+        
+	    <div aria-label="Desktop navigation menu" class="desktop-nav-item">
 	     <div class="desktop-nav">
 		  <ul> 
-		   <li><a class="top-nav active-link" href="index.html">Portfolio</a></li>
+		   <li><a class="top-nav" href="index.html">Portfolio</a></li>
 		   <li><a class="top-nav" href="about.html">About</a></li>
 		   <li><a class="top-nav" href="lab.html">Lab</a></li>	
 		   <li><a class="top-nav" href="music.html">Music</a></li>	
@@ -71,70 +99,84 @@
 		  </ul>
 	     </div>
 	    </div>
-
-	  <!-- Toggle Navigation (Mobile only)
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
-	   <div class="mobile-nav">
-		<div id="toggle">
+  
+  
+	    <!---^---^---^---^---^---^---^---
+	      Mobile navigation menu toggle
+        ^---^---^---^---^---^---^---^--->    
+         
+	    <div aria-label="Mobile navigation menu toggle" class="mobile-nav">
+		 <div id="toggle">
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
 		  <div class="ham-title">Menu</div>
-		</div>
-	   </div><!--mobile-nav-->
+		 </div>
+	    </div>
 	   
-	  </div><!--desktop-nav-container--> 
+	   </nav>
 
-	 </section>
-	</header>
-	 
-	<main role="main" aria-label="when the content begins">
+	  </section>
+	 </header>
+   	
+   	
+	 <!---^---^---^---^---^---^---^---
+	   Mobile navigation menu tiles
+     ^---^---^---^---^---^---^---^---> 
+     
+	 <nav aria-label="mobile navigation menu titles" class="hiddenMenu" id="dropDownMenu" >   	   
+	  <div class="mobile-flex-container">
 
-	  <!-- Mobile Navigation 
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->    	
-	  <div id="dropDownMenu" class="hiddenMenu">   
-	   	   
-	   <div class="mobile-flex-container">
-
-		<a class="mobile-flex-item" href="index.html">	 
-		 <img src="images/icons/portfolio-icon.svg" class="img-responsive-centered" alt="suitcase" width="85" height="70">
-		 <p class="active-link">Portfolio</p>
-		</a>
+	   <a class="mobile-flex-item" href="index.html">	 
+	    <img src="images/icons/portfolio-icon.svg" class="img-responsive-centered" alt="suitcase" width="85" height="70">
+		<p class="active-link">Portfolio</p>
+	   </a>
 	
-		<a class="mobile-flex-item" href="about.html">	
-		 <img src="images/icons/about-icon.svg" class="img-responsive-centered" alt="about-icon" width="85" height="70">
-		 <p class="white-link">About</p>
-		</a>
+	   <a class="mobile-flex-item" href="about.html">	
+		<img src="images/icons/about-icon.svg" class="img-responsive-centered" alt="about-icon" width="85" height="70">
+		<p class="white-link">About</p>
+	   </a>
 
-		<a class="mobile-flex-item" href="lab.html">			 
-		 <img src="images/icons/lab-icon.svg" class="img-responsive-centered" alt="lab" width="85" height="70">		
-		 <p class="white-link">Lab</p>
-		</a>
+	   <a class="mobile-flex-item" href="lab.html">			 
+		<img src="images/icons/lab-icon.svg" class="img-responsive-centered" alt="lab" width="85" height="70">		
+		<p class="white-link">Lab</p>
+	   </a>
 
-		<a class="mobile-flex-item" href="music.html">			 
-		 <img src="images/icons/music-logo.svg" class="img-responsive-centered" alt="music" width="85" height="70">		
-		 <p class="white-link">Music</p>
-		</a>
+	   <a class="mobile-flex-item" href="music.html">			 
+		<img src="images/icons/music-logo.svg" class="img-responsive-centered" alt="music" width="85" height="70">		
+		<p class="white-link">Music</p>
+	   </a>
 		
-		<a class="mobile-flex-item" href="resume.html">	 
-		 <img src="images/icons/resume-icon.svg" class="img-responsive-centered"  alt="resume-icon" width="85" height="70">		 
-		 <p class="white-link">Resume</p>
-		</a>		
+	   <a class="mobile-flex-item" href="resume.html">	 
+		<img src="images/icons/resume-icon.svg" class="img-responsive-centered"  alt="resume-icon" width="85" height="70">		 
+		<p class="white-link">Resume</p>
+	   </a>		
 
-		<a class="mobile-flex-item" href="contact.html">	 
-		 <img src="images/icons/contact-icon.svg" class="img-responsive-centered" alt="contact-icon" width="85" height="70">
-		 <p class="white-link">Contact</p>
-		</a>	
+	   <a class="mobile-flex-item" href="contact.html">	 
+		<img src="images/icons/contact-icon.svg" class="img-responsive-centered" alt="contact-icon" width="85" height="70">
+		<p class="white-link">Contact</p>
+	   </a>	
 	
-	   </div>
-	  </div>	
-
-	 	 	   
-	  <section>
-	   
-	   
-	   <!--Section 1: Intro-->
-	   <article>
+	  </div>
+	 </nav>
+	 
+	 
+	 <main aria-label="When the content begins">  
+	  
+	 
+	 <!--=--=--=--=--=--=--=--=--=--=--=
+	 ---=---=---=---=---=---=---=---=---
+		    Introduction Section     
+	 =---=---=---=---=---=---=---=---=--
+	 =--=--=--=--=--=--=--=--=--=--=--->  
+	  
+	  
+	  <!---^---^---^---^---^---^---^---
+	     Introduction title and image
+      ^---^---^---^---^---^---^---^--->  
+      
+	  <section>   
+	   <article aria-label="introduction to the deaconess hospital design">
 	    
 	    <div class="title-area">
 	     <h1 class="accent">Deaconess Riley Childrens Hospital</h1>
@@ -143,15 +185,18 @@
 	    
 	    <div class="content-area">
 		 <figure>
-		  <img src="images/deaconess-hospital/hospital-opening.png" class="img-responsive-centered" alt="hospital-opening" width="1560" height="920" >
+		  <img src="images/deaconess-hospital/hospital-opening.png" class="img-responsive-centered" alt="Hospital Opening collage" width="1560" height="920" >
 		 </figure>
 	    </div>
 	    
 	   </article>
 	   	  
-
-	   <!--Section 2: The Problem-->   	   
-	   <article class="no-underline">
+	    	
+	  <!---^---^---^---^---^---^---^---
+	        Defining the problem
+      ^---^---^---^---^---^---^---^--->   
+      
+	   <article aria-label="Describing the problem" class="no-underline">
 	    
 	    <div class="title-area">
 	     <h2>The Problem</h2>
@@ -159,580 +204,1477 @@
 	    
 	    <div class="content-area">
 		 <p>
-		The Riley children’s hospital is in Indianapolis.  Depending on traffic that is four hours away from Evansville.  So it was important to create a 
-		children’s hospital that functioned as an extension to the Riley’s children hospital.  A hospital where the doctors from Indianapolis could come to 
-		Evansville and see children that might be too sick to travel that far. 
+		  The Riley children’s hospital is in Indianapolis. Depending on traffic that is four hours away from Evansville. So it was important to create a children’s hospital that functioned as an extension to Riley’s children's hospital. A hospital where the doctors from Indianapolis could come to Evansville and see children that might be too sick to travel that far. 
 		
-		<br><br>
-		Now that we have the hospital built… now it has to be designed.
+		 <br><br>
+		  Now that we have the hospital built… now it has to be designed.
 
 		 </p>
 	    </div>
 	    
 	   </article>
 	  </section>
+	 
+
+	 <!--=--=--=--=--=--=--=--=--=--=--=
+	 ---=---=---=---=---=---=---=---=---
+		   Nature Photos Section     
+	 =---=---=---=---=---=---=---=---=--
+	 =--=--=--=--=--=--=--=--=--=--=--->  	 
+
+	 <div class="path-card__bg">
 	   
-      <div class="path-card__bg">
-	   
-	   <section>
+	  <section>
 	   <h1 class="accent text-center">Nature photo sessions</h1>
 
-
-	   <div class="path-card__flex-container">
-		
-		
-		<div class="path-card__flex-item">
-		
-		 <div class="otherPages" data-modal="modalOne">
-		 
-		  <div class="padding-10">
-		   <div class="wesselman"></div>
-		  </div>
-
-		  <div class="path-card__title-container-lg">
-		   <div class="path-card__container-a-lg">
+		<div class="nature-card__flex-container">
 			
-			<div class="path-card__title-lg">Wesselman Woods</div>	
 			
-			<div class="path-card__icon__lg">
-			 <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>	
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-		    <div class="pinkStrip_25-nine"></div>
-			<div class="pinkStrip_25-ten"></div>
-		
-		   </div><!--container-a-->
-		   <div class="path-card__container-b-lg"></div>
-		  </div><!--Title-container--->
+		 <!---^---^---^---^---^---^---^---
+			    Wesselman Woods Photo
+		  ^---^---^---^---^---^---^---^--->    
 		  
-		 </div>
-		</div><!--flex-item-->
-		
-		
-		
-	   </div>
-	   </section>
-	   </div>
-		   
-	   <section>
-	   <!--Section 3: Research & Wireframes-->    	 
-	   <article class="no-underline">
-	    
-	    <div class="title-area">
-	     <h2>The Solution:</h2>
-	     <h1 class="accent">Research</h1>
-	    </div>
-	    
-	    <div class="content-area">
-		
-		 <p>
-		 What we found from interviewing patients and examining other successful children’s hospitals.  A children’s hospital has to be designed in a way that
-	  	 it promotes healing and makes the patients feel connected to their community.  This is especially true of children who had longer stays at the hospital 
-		 due to more severe illinesses.
-		 
-		 <br><br>
-		 
-		 In order to engage in the child like spirit that promotes healing, we had to get away from the sterile blues and whites of the typical hospitals.  We had
-		 to study color theory, we had to study child psychology, we had to put our selves in the shoes of these children, so we could see life from a child’s 
-		 perspective.
-		 
-		 <br><br>
-		 
-		 Once we put the research all together, the plan appeared.  We were going to call our designs “Paths Of Nature”.  We could showcase the natural beauty of 
-		 the outdoor activites that are a apart of Evansville and southern Indiana.  
-		
-		 <br><br>
-		
-		 This plan was two fold.  The first fold, was that we would be connecting these patients to their community by reminding them of the beauty that their 
-		 community offers.
-		
-		 <br><br>
-		
-		 The second fold, is that we would be bringing the outside to the inside.  This would make these children not feel like they are just in sterile hospital.  
-		 We could bring the colors of nature and blend them in a way that felt childlike and filled with imagination. 
-		
-		 <br><br>
-		
-		 Now that we had a plan, Tara and I divided our roles up.  She took care of the designs and I was to do the large scale photography.
-		 
-		 <br><br>
-		 
-		 </p>
-		 
-	    </div>
-	    
-	   </article>
-	  </section>
-	   
-
-      <div class="path-card__bg">
-	   
-	   <section>
-	   <h1 class="accent text-center">Nature photo sessions</h1>
-
-
-	   <div class="path-card__flex-container">
-		
-		
-		<div class="path-card__flex-item">
-		
+		 <div class="nature-card__flex-item">
 		  <div class="otherPages" data-modal="modalOne">
 		 
-		 
-		  <div class="padding-10">
-			<div class="wide-photo">
-		     
-			</div>
-		  </div>
+		   <div class="padding-10">
+			<img src="images/deaconess-hospital/wesselman-woods-web.jpg" class="img-responsive-centered border shadow" alt="wesselman-woods" >
+		   </div>
 
-		  <div class="path-card__title-container-lg">
-		   <div class="path-card__container-a-lg">
+		   <div class="path-card__title-container-lg">
+			<div class="path-card__container-a-lg">
 			
-			<div class="path-card__title-lg">Angel Mounds</div>	
+			 <div class="path-card__title-lg">Wesselman Woods</div>	
 			
-			<div class="path-card__icon__lg">
-			 <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>	
+			 <div class="path-card__icon__lg">
+			  <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			 </div>	
 			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-			<div class="pinkStrip_25-nine"></div>
-			<div class="pinkStrip_25-ten"></div>
+			 <div class="pinkStrip_65-one"></div>
+			 <div class="pinkStrip_65-two"></div>
+			 <div class="pinkStrip_55-three"></div>
+			 <div class="pinkStrip_55-four"></div>
+			 <div class="pinkStrip_45-five"></div>
+			 <div class="pinkStrip_45-six"></div>
+			 <div class="pinkStrip_35-seven"></div>
+			 <div class="pinkStrip_35-eight"></div>
+			 <div class="pinkStrip_25-nine"></div>
+			 <div class="pinkStrip_25-ten"></div>
+			
 		
-		   </div><!--container-a-->
-		   <div class="path-card__container-b-lg"></div>
-		  </div><!--Title-container--->
+			</div><!--container-a-->
+			<div class="path-card__container-b-lg"></div>
+		   </div><!--Title-container--->
 		  
-		 </div>
-		</div><!--flex-item-->
-			
-	   </div>
-	   </section>
-	   </div>
-
-	   <section>
-	   <!--Section 4: Design-->  	   	 
-	   <article class="no-underline">
-	    
-	    <div class="title-area">
-	     <h2>The Solution:</h2>
-	     <h1 class="accent">Design</h1>
-	    </div>
-	    
-	    <div class="content-area">
+		  </div><!--otherPages-->
+		 </div><!--flex-item-->
 		
-		 <p>
-	     So I mapped out the most beautiful places in Evansville and it’s surrounding areas.  The four month journey began.  One of the things that separated our 
-	     designs from many other children’s hospitals.  Was that we were going to make enormous prints of the photography to make the children feel like they were
-	     in the environments.  
+		
+		 <!---^---^---^---^---^---^---^---
+				Angel Mounds Photo
+		  ^---^---^---^---^---^---^---^---> 
+	
+		 <div class="nature-card__flex-item">
+		  <div class="otherPages" data-modal="modalTwo">
 
-		 <br><br>
+		   <div class="padding-10">
+		
+			<img src="images/deaconess-hospital/angel-mounds-web.jpg" class="img-responsive-centered border shadow" alt="angel-mounds" >
+		   </div>
 
-		 These photos were photographed at extremely high megapixels.  Our Angel Mounds photo was printed 30 foot wide by 15 feet tall.  The Angel Mounds photo was
-		 a whopping 253  megapixels.  Even our Wesselman Woods photo that was printed 16 feet wide by 10 feet tall was 50 megapixels.
-
-		 <br><br>
-
-		 </p>
+			<div class="path-card__title-container-lg">
+			 <div class="path-card__container-a-lg">
+			
+			  <div class="path-card__title-lg">Angel Mounds</div>	
+			
+			  <div class="path-card__icon__lg">
+			   <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			  </div>		
+			
+			  <div class="pinkStrip_65-one"></div>
+			  <div class="pinkStrip_65-two"></div>
+			  <div class="pinkStrip_55-three"></div>
+			  <div class="pinkStrip_55-four"></div>
+			  <div class="pinkStrip_45-five"></div>
+			  <div class="pinkStrip_45-six"></div>
+			  <div class="pinkStrip_35-seven"></div>
+			  <div class="pinkStrip_35-eight"></div>
+			  <div class="pinkStrip_25-nine"></div>
+			  <div class="pinkStrip_25-ten"></div>
+			
+		
+			</div><!--container-a-->
+			<div class="path-card__container-b-lg"></div>
+		   </div><!--title-container-->
 		 
-	    </div>
-	     
-	   </article>	
-	   
-	    </section>
+		  </div><!--otherPages-->
+		 </div><!--flex-item-->
 
 
-	   	   	
-	   <div class="path-card__bg">
-	   
-	   <section>
-	   <h1 class="accent text-center">Zoo photo sessions</h1>
-
-
-	   <div class="path-card__flex-container">
-		
-		
-		<div class="path-card__flex-item">
-		
-		  <div class="otherPages" data-modal="modalOne">
-		 
-		 
-		  <div class="padding-10">
-		    <img src="images/deaconess-hospital/sun-bear.jpg" class="img-responsive-centered border shadow" alt="sun-bear" >
-		  </div>
-
-		  <div class="path-card__title-container">
-		   <div class="path-card__container-a">
-			
-			<div class="path-card__title">Sun Bear</div>	
-			
-			<div class="path-card__icon">
-			 <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>	
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-			<div class="pinkStrip_25-nine"></div>
-			<div class="pinkStrip_25-ten"></div>
-		
-		   </div><!--container-a-->
-		   <div class="path-card__container-b"></div>
-		  </div><!--Title-container--->
+		 <!---^---^---^---^---^---^---^---
+				 Ellis Park Photo
+		  ^---^---^---^---^---^---^---^---> 		
 		  
-		 </div>
-		</div><!--flex-item-->
+		 <div class="nature-card__flex-item">
+		  <div class="otherPages" data-modal="modalThree">
+
+		   <div class="padding-10">
+			<img src="images/deaconess-hospital/ellis-park-web.jpg" class="img-responsive-centered border shadow" alt="ellis-park-web" >
+		   </div>
+
+			<div class="path-card__title-container-lg">
+			 <div class="path-card__container-a-lg">
+			
+			  <div class="path-card__title-lg">Ellis Park</div>	
+			
+			  <div class="path-card__icon__lg">
+			   <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			  </div>		
+			
+			  <div class="pinkStrip_65-one"></div>
+			  <div class="pinkStrip_65-two"></div>
+			  <div class="pinkStrip_55-three"></div>
+			  <div class="pinkStrip_55-four"></div>
+			  <div class="pinkStrip_45-five"></div>
+			  <div class="pinkStrip_45-six"></div>
+			  <div class="pinkStrip_35-seven"></div>
+			  <div class="pinkStrip_35-eight"></div>
+			  <div class="pinkStrip_25-nine"></div>
+			  <div class="pinkStrip_25-ten"></div>
+		
+		
+			</div><!--container-a-->
+			<div class="path-card__container-b-lg"></div>
+		   </div><!--title-container-->
+		 
+		  </div><!--otherPages-->
+		 </div><!--flex-item-->
+
+
+		 <!---^---^---^---^---^---^---^---
+				 Eagle Slough Photo
+		  ^---^---^---^---^---^---^---^---> 		
+		  
+		 <div class="nature-card__flex-item">
+		  <div class="otherPages" data-modal="modalFour">
+
+		   <div class="padding-10">
+			<img src="images/deaconess-hospital/eagle-slough-web.jpg" class="img-responsive-centered border shadow" alt="ellis-park-web" >
+		   </div>
+
+			<div class="path-card__title-container-lg">
+			 <div class="path-card__container-a-lg">
+			
+			  <div class="path-card__title-lg">Eagle Slough</div>	
+			
+			  <div class="path-card__icon__lg">
+			   <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			  </div>		
+			
+			  <div class="pinkStrip_65-one"></div>
+			  <div class="pinkStrip_65-two"></div>
+			  <div class="pinkStrip_55-three"></div>
+			  <div class="pinkStrip_55-four"></div>
+			  <div class="pinkStrip_45-five"></div>
+			  <div class="pinkStrip_45-six"></div>
+			  <div class="pinkStrip_35-seven"></div>
+			  <div class="pinkStrip_35-eight"></div>
+			  <div class="pinkStrip_25-nine"></div>
+			  <div class="pinkStrip_25-ten"></div>
 	
 		
-		<div class="path-card__flex-item">
-		
-		 <div class="otherPages" data-modal="modalTwo">
-
-		<div class="padding-10">
-		<img src="images/deaconess-hospital/red-panda.jpg" class="img-responsive-centered border shadow" alt="red-panda" >
-		</div>
-
-		 <div class="path-card__title-container">
-		  <div class="path-card__container-a">
-			
-			<div class="path-card__title">Red Panda</div>	
-			
-			<div class="path-card__icon">
-			 <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>		
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-		
-		  </div>
-		  <div class="path-card__container-b"></div>
-		 </div>
+			</div><!--container-a-->
+			<div class="path-card__container-b-lg"></div>
+		   </div><!--title-container-->
 		 
+		  </div><!--otherPages-->
+		 </div><!--flex-item-->
+
 		</div>
-	   </div>
-
-		
-	   <div class="path-card__flex-item">
-		
-		<div class="otherPages" data-modal="modalTwo">
-
-		<div class="padding-10">
-		 <img src="images/deaconess-hospital/turtle.jpg" class="img-responsive-centered border shadow" alt="turtle" >
-		</div>
-
-		 <div class="path-card__title-container">
-		  <div class="path-card__container-a">
-			
-			<div class="path-card__title">Turtle</div>	
-			
-			<div class="path-card__icon">
-			  <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>		
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-		
-		  </div>
-		  <div class="path-card__container-b"></div>
-		 </div>
-		 
-		</div>
-	   </div>
-
-
-	   <div class="path-card__flex-item">
-		
-		<div class="otherPages" data-modal="modalTwo">
-
-		<div class="padding-10">
-		 <img src="images/deaconess-hospital/monkey.jpg" class="img-responsive-centered border shadow" alt="monkey" >
-		</div>
-
-		 <div class="path-card__title-container">
-		  <div class="path-card__container-a">
-			
-			<div class="path-card__title">Monkies</div>	
-			
-			<div class="path-card__icon">
-			  <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>		
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-		
-		  </div>
-		  <div class="path-card__container-b"></div>
-		 </div>
-		 
-		</div>
-	   </div>
-
-
-	   <div class="path-card__flex-item">
-		
-		<div class="otherPages" data-modal="modalTwo">
-
-		<div class="padding-10">
-		 <img src="images/deaconess-hospital/birds.jpg" class="img-responsive-centered border shadow" alt="birds" >
-		</div>
-
-		 <div class="path-card__title-container">
-		  <div class="path-card__container-a">
-			
-			<div class="path-card__title">Birds</div>	
-			
-			<div class="path-card__icon">
-			  <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>		
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-		
-		  </div>
-		  <div class="path-card__container-b"></div>
-		 </div>
-		 
-		</div>
-	   </div>
-	   
-	   
-	   <div class="path-card__flex-item">
-		
-		<div class="otherPages" data-modal="modalTwo">
-
-		<div class="padding-10">
-		 <img src="images/deaconess-hospital/camel.jpg"  class="img-responsive-centered border shadow" alt="camel" >
-		</div>
-
-		 <div class="path-card__title-container">
-		  <div class="path-card__container-a">
-			
-			<div class="path-card__title">Camel</div>	
-			
-			<div class="path-card__icon">
-			  <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
-			</div>		
-			
-			<div class="pinkStrip_50-one"></div>
-			<div class="pinkStrip_50-two"></div>
-			<div class="pinkStrip_50-three"></div>
-			<div class="pinkStrip_50-four"></div>
-			<div class="pinkStrip_50-five"></div>
-			<div class="pinkStrip_50-six"></div>
-			<div class="pinkStrip_25-seven"></div>
-			<div class="pinkStrip_25-eight"></div>
-		
-		  </div>
-		  <div class="path-card__container-b"></div>
-		 </div>
-		 
-		</div>
-	   </div>
-
-	   </div><!--flex-container-->
-	   </section>
-	   </div>
-
-	   <!--
-	   <div id="modalOne" class="modal">
-		<div class="modal-content">
-		  <div class="contact-form">
-		  
-			<div class="modal-title">Zoo</div>
-				
-				<div class="float-right close-button">  
-			   <div class="exit-container">	  
-				<img src="images/icons/close-button.svg" alt="close-button" width="40" height="40" ><div class="exit-title">Close</div>
-			   </div>
-			  </div>
-
-
-	  
-		  </div>
-		</div>
+	  </section>
 	  </div>
-	  
-	  
-	  <div id="modalTwo" class="modal">
-		<div class="modal-content">
-		  <div class="contact-form">
-		  
-			<div class="modal-title">Make</div>
-			
-				<div class="float-right close-button">  
-			   <div class="exit-container">	  
-				<img src="images/icons/close-button.svg" alt="close-button" width="40" height="40" ><div class="exit-title">Close</div>
-			   </div>
-			  </div>	
-	  
-					
-	  
-		  </div>
-		</div>
-	  </div>
-		-->	
 
-	   <!--Section 6: The Result-->  
-	   <section>
-	   <article class="no-underline">
-	    
-	    <div class="title-area">
-	     <h2>The Result</h2>
+
+	<!--=--=--=--=--=--=--=--=--=--=--=
+	---=---=---=---=---=---=---=---=---
+	   Nature Section Modal Windows    
+	=---=---=---=---=---=---=---=---=--
+	=--=--=--=--=--=--=--=--=--=--=---> 
+ 
+
+	<!---^---^---^---^---^---^---^---
+	   Wesselman Woods Modal Header
+	^---^---^---^---^---^---^---^--->
+	
+	<div id="modalOne" class="modal">
+	 <div class="storyModal">	
+		  
+	  <div class="storyModal-header"> 			 
+	   <div class="storyModal-header-container">
+			
+	    <div class="grid-66">
+	     <div class="storyModal-title wide-title">Wesselman Woods</div>
 	    </div>
+			
+	    <div class="grid-33">
+	     <div class="exit-shape__container">
+		
+	      <div class="close-button">  
+		   <div class="exit-icon__container">	  
+		    <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+		    <div class="exit-icon__title">Close</div>
+		   </div><!--exit-container-->
+	      </div><!--close-button-->
+			
+	     </div><!--trapezoid-->
+	    </div><!--grid-33-->
+	
+	   </div><!--storyModal-header-container-->		     
+	  </div><!--storyModal-header-->	
+			
+	
+	<!---^---^---^---^---^---^---^---
+	   Wesselman Woods Modal Body
+	^---^---^---^---^---^---^---^--->	
+	
+	  <div class="storyModal-body">
+	   <div class="storyModal-content wide">
+			  
+	    <div class="wide-item wesselman-woods bg-img"></div>
+ 
+		<div class="wide-item"></div>
+		  
+		<div class="wide-item">
+		 <h2 class="accent-story">The Story</h2>
+		  <div class="css-columns">	
+			This photo was one of the premiere photos shown at the children’s hospital. Stretching at an impressive width of sixteen feet this image was displayed from floor to ceiling. As this is one of the first images patients see, many have enjoyed the feeling of being a part of nature. This captured the essence of the idea to distract the children and enchant them at the same time. Although this is my work, I am still perplexed by the color and clarity of this photo. It offers an experience rare to most doctor offices. 
+			<br><br>
+			Several people who attended the hospital grand opening commented on how it was so lifelike and felt as though they could reach out and touch the trees and grass and almost smell nature as they stood in the midst of the image. The realism and detail are what makes this photo one to rival with competitors.
+			<br><br>
+			The secret is that this is not just a single photo taken but instead is comprised of 9 individual shots merged into one. At the time these images were captured no camera could achieve this image in one shot. This image is 53 megapixels. That is quite large considering it was shot with a 20-megapixel camera.
+			<br><br>
+			The real reason why this image is special is that I shot it with a fixed prime lens. Fixed prime lens gives incredible detail upfront while blurring the background. Everything is in sharp detail since I only chose the clearest parts when the images were merged together. Of course, the photoshop software also played a part in the success of this project as I was able to take the raw photos and post process them.
+			<br><br>
+			Now enough about these technical details, we have not discussed the photograph itself. I chose this area as it is a well-known landmark in Evansville. I photographed a lot of different areas that day but was mesmerized by the trail leading me to this exact spot where I found the perfect blend of ethereal and beauty as the extensive path led to the light. Immediately I realized how good this shot would be and so I set up the tripod and well, the rest is history.
+		  </div>		
+		  
+		  <br>
+			
+		  <h2 class="accent-story">The Equipment</h2>	
+		   <p class="storyModal-words">
+		    The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.  The tripod I used is the Manfrotto 055 aluminum 3-section tripod kit with ball head.
+		   </p>	
+		   <br><br>
+		</div>
+
+	   </div><!--content-->
+	  </div><!--body-->
+				
+	 </div><!--storyModal-->
+	</div><!--modalOne-->
+
+
+	<!---^---^---^---^---^---^---^---
+	   Angel Mounds Modal Header
+	^---^---^---^---^---^---^---^--->
+	
+	<div id="modalTwo" class="modal">
+	 <div class="storyModal">	
+		  
+	  <div class="storyModal-header"> 			 
+	   <div class="storyModal-header-container">
+			
+		<div class="grid-66">
+		 <div class="storyModal-title wide-title">Angel Mounds</div>
+		</div>
+			
+		<div class="grid-33">
+		 <div class="exit-shape__container">
+		
+		  <div class="close-button">  
+		   <div class="exit-icon__container">	  
+			<img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			<div class="exit-icon__title">Close</div>
+		   </div><!--exit-container-->
+		  </div><!--close-button-->
+			
+		 </div><!--trapezoid-->
+		</div><!--grid-33-->
+	
+	   </div><!--storyModal-header-container-->		     
+	  </div><!--storyModal-header-->	
+			
+	
+	<!---^---^---^---^---^---^---^---
+	    Angel Mounds Modal Body
+	^---^---^---^---^---^---^---^--->	
+	
+	  <div class="storyModal-body">
+	   <div class="storyModal-content wide">
+			   
+	    <div class="wide-item angel-mounds bg-img"></div>
+		  
+		<div class="wide-item"></div>
+		  
+		<div class="wide-item">
+		 <h2 class="accent-story">The Story</h2>
+		  <div class="css-columns">	
+			I did at least four trips to achieve this shot.  I remember it was my third trip that day in late March. It was a sunny day.  The sky was filled with beautiful clouds making it the perfect day to capture the image. It was also a prime time to photograph because the grass in some areas was not yet growing wild.
+			Personally, Angel Mounds was my favorite nature place to visit. The huge open fields have strange mounds throughout the area. These, I came to find out, were created to define status and wealth in the community of the natives long ago. The taller the mound the greater the status. The area reminded me of the Windows XP default background.
+			Technically, I created this image in its best the same way I did for the Wesselman Woods one. This photo was printed in a massive 24 foot expanse and as well was naturally a huge attraction in the office.
+		  </div>		
+		  
+		  <br>
+			
+		  <h2 class="accent-story">The Equipment</h2>	
+		   <p class="storyModal-words">
+			The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.  The tripod I used is the Manfrotto 055 aluminum 3-section tripod kit with ball head.
+		   </p>		
+		   <br><br>
+		</div>
+	
+	   </div><!--content-->
+	  </div><!--body-->
+				
+	 </div><!--storyModal-->
+	</div><!--modalTwo-->
+	
+
+	<!---^---^---^---^---^---^---^---
+	    Ellis Park Modal Header
+	^---^---^---^---^---^---^---^--->
+	
+	<div id="modalThree" class="modal">
+	 <div class="storyModal">	
+		  
+	  <div class="storyModal-header"> 			 
+	   <div class="storyModal-header-container">
+			
+		<div class="grid-66">
+		 <div class="storyModal-title wide-title">Ellis Park</div>
+		</div>
+			
+		<div class="grid-33">
+		 <div class="exit-shape__container">
+		
+		  <div class="close-button">  
+		   <div class="exit-icon__container">	  
+			<img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			<div class="exit-icon__title">Close</div>
+		   </div><!--exit-container-->
+		  </div><!--close-button-->
+			
+		 </div><!--trapezoid-->
+		</div><!--grid-33-->
+	
+	   </div><!--storyModal-header-container-->		     
+	  </div><!--storyModal-header-->	
+			
+	
+	<!---^---^---^---^---^---^---^---
+		Ellis Park Modal Body
+	^---^---^---^---^---^---^---^--->	
+	
+	  <div class="storyModal-body">
+	   <div class="storyModal-content wide">
+			   	
+		<div class="wide-item ellis-park bg-img"></div>
+  
+		<div class="wide-item"></div>
+		  
+		<div class="wide-item">
+		 <h2 class="accent-story">The Story</h2>
+		  <div class="css-columns">	
+			I originally intended to photograph the area for its well-known attraction horse racing. However, I found that the land surrounding the park was far more interesting. I wanted to capture the sunrise and so I ventured out at 4:30 in the morning so I had time to set up and get that perfect image around 6:00 a.m.
+			I truly did not expect to capture this image and although it was not displayed in the hospital, it remains one of my favorites. 
+		  </div>		
+		  
+		  <br>
+			
+		  <h2 class="accent-story">The Equipment</h2>	
+		   <p class="storyModal-words">
+			The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.  The tripod I used is the Manfrotto 055 aluminum 3-section tripod kit with ball head.
+		   </p>		
+		   <br><br>	
+		</div>
+	
+	   </div><!--content-->
+	  </div><!--body-->
+				
+	 </div><!--storyModal-->
+	</div><!--modalThree-->
+	
+
+	<!---^---^---^---^---^---^---^---
+	    Eagle Slough Modal Header
+	^---^---^---^---^---^---^---^--->
+	
+	<div id="modalFour" class="modal">
+	 <div class="storyModal">	
+	  
+	  <div class="storyModal-header"> 			 
+	   <div class="storyModal-header-container">
+		
+	    <div class="grid-66">
+	     <div class="storyModal-title wide-title">Eagle Slough</div>
+	    </div>
+		
+	    <div class="grid-33">
+	     <div class="exit-shape__container">
+	
+	      <div class="close-button">  
+	       <div class="exit-icon__container">	  
+		    <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+		    <div class="exit-icon__title">Close</div>
+	       </div><!--exit-container-->
+	      </div><!--close-button-->
+		
+	     </div><!--trapezoid-->
+	    </div><!--grid-33-->
+	
+	   </div><!--storyModal-header-container-->		     
+	  </div><!--storyModal-header-->	
+		
+	
+	<!---^---^---^---^---^---^---^---
+	     Eagle Slough Modal Body
+	^---^---^---^---^---^---^---^--->	
+	
+	  <div class="storyModal-body">
+	   <div class="storyModal-content wide">
+		   
+		<div class="wide-item eagle-slough bg-img"></div>
+	  
+	    <div class="wide-item"></div>
+	  
+	    <div class="wide-item">
+	     <h2 class="accent-story">The Story</h2>
+	      <div class="css-columns">	
+			Right across from Ellis Park was this hidden gem. I am sure it was often overlooked as it is a part of the wetlands and not many people venture out that way these days. I remember feeling rather uncomfortable as the bugs were biting me as I was trying to capture the photo. It reminded me of the stories I heard of the National Geographic photographers often comment on similar conditions. This image is also comprised of several shots. All the discomfort is well worth it in the end. Sometimes it takes time and patience to get the right image. 
+	      </div>		
+	  
+	      <br>
+		
+	     <h2 class="accent-story">The Equipment</h2>	
+		  <p class="storyModal-words">
+		   The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.  The tripod I used is the Manfrotto 055 aluminum 3-section tripod kit with ball head.
+		 </p>		
+		 
+		 <br><br>
+	    </div>
+	
+	   </div><!--content-->
+	  </div><!--body-->
+			
+	 </div><!--storyModal-->
+	</div><!--modalFour-->
+		
+			  	   		  
+	<!---^---^---^---^---^---^---^---
+	          The Research
+    ^---^---^---^---^---^---^---^--->    
+     	 
+     <section>
+	  <article class="no-underline">
+	    
+	   <div class="title-area">
+	    <h2>The Solution:</h2>
+	    <h1 class="accent">Research</h1>
+	   </div>
+	    
+	   <div class="content-area">
+		
+	    <p>
+		 What we found from interviewing patients and examining other successful children’s hospitals. A children’s hospital has to be designed in a way that promotes healing and makes the patients feel connected to their community. This is especially true of children who had longer stays at the hospital due to more severe illnesses. 
+		 
+		<br><br>
+		 
+		 To engage in the childlike spirit that promotes healing, we had to get away from the sterile blues and whites of the typical hospitals. We had to study color theory, we had to study child psychology, we had to put ourselves in the shoes of these children, so we could see life from a child’s perspective. 
+		 
+		<br><br>
+		 
+		 Once we put the research altogether, the plan appeared. We were going to call our designs “Paths of Nature”. We could showcase the natural beauty of the outdoor activities that are apart of Evansville and southern Indiana.   
+		
+		<br><br>
+		
+		 This plan was twofold. The first fold was that we would be connecting these patients to their community by reminding them of the beauty that their community offers. 
+		
+		<br><br>
+		
+		 The second fold is that we would be bringing the outside to the inside. This would make these children not feel like they are just in a sterile hospital. We could bring the colors of nature and blend them in a way that felt childlike and filled with imagination. 
+		
+		<br><br>
+		
+		 Now that we had a plan, Tara and I divided our roles up. She took care of the designs and I was to do the large-scale photography.
+		 
+		<br><br>
+		 
+		</p>
+		 
+	   </div>
+	    
+	  </article>
+	 </section>
+	   
+	 
+	 <!--=--=--=--=--=--=--=--=--=--=--=
+	  ---=---=---=---=---=---=---=---=---
+			  Zoo Gallery Section     
+	  =---=---=---=---=---=---=---=---=--
+	  =--=--=--=--=--=--=--=--=--=--=---> 
+	  
+	  
+	  <div class="path-card__bg">
+		
+	   <section>
+		<h1 class="accent text-center">Zoo photo sessions</h1>
+ 
+		 <div class="path-card__flex-container">
+			 
+			 
+		  <!---^---^---^---^---^---^---^---
+				  Sun Bear Photo
+		   ^---^---^---^---^---^---^---^--->    
+		   
+		  <div class="path-card__flex-item">
+		   <div class="otherPages" data-modal="modalFive">
+		  
+			<div class="padding-10">
+			 <img src="images/deaconess-hospital/sun-bear.jpg" class="img-responsive-centered border shadow" alt="sun-bear" >
+			</div>
+ 
+			<div class="path-card__title-container">
+			 <div class="path-card__container-a">
+			 
+			  <div class="path-card__title">Sun Bear</div>	
+			 
+			  <div class="path-card__icon">
+			   <img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			  </div>	
+			 
+			  <div class="pinkStrip_65-one"></div>
+			  <div class="pinkStrip_65-two"></div>
+			  <div class="pinkStrip_55-three"></div>
+			  <div class="pinkStrip_55-four"></div>
+			  <div class="pinkStrip_45-five"></div>
+			  <div class="pinkStrip_45-six"></div>
+			  <div class="pinkStrip_35-seven"></div>
+			  <div class="pinkStrip_35-eight"></div>
+	
+		 
+			 </div><!--container-a-->
+			 <div class="path-card__container-b"></div>
+			</div><!--Title-container--->
+		   
+		   </div><!--otherPages-->
+		  </div><!--flex-item-->
+		 
+		 
+		  <!---^---^---^---^---^---^---^---
+				  Red Panda Photo
+		   ^---^---^---^---^---^---^---^---> 
+	 
+		  <div class="path-card__flex-item">
+		   <div class="otherPages" data-modal="modalSix">
+ 
+			<div class="padding-10">
+			 <img src="images/deaconess-hospital/red-panda.jpg" class="img-responsive-centered border shadow" alt="red-panda" >
+			</div>
+ 
+			 <div class="path-card__title-container">
+			  <div class="path-card__container-a">
+			 
+			   <div class="path-card__title">Red Panda</div>	
+			 
+			   <div class="path-card__icon">
+				<img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			   </div>		
+			 
+			   <div class="pinkStrip_65-one"></div>
+			   <div class="pinkStrip_65-two"></div>
+			   <div class="pinkStrip_55-three"></div>
+			   <div class="pinkStrip_55-four"></div>
+			   <div class="pinkStrip_45-five"></div>
+			   <div class="pinkStrip_45-six"></div>
+			   <div class="pinkStrip_35-seven"></div>
+			   <div class="pinkStrip_35-eight"></div>
+		 
+			 </div><!--container-a-->
+			 <div class="path-card__container-b"></div>
+			</div><!--title-container-->
+		  
+		   </div><!--otherPages-->
+		  </div><!--flex-item-->
+ 
+ 
+		  <!---^---^---^---^---^---^---^---
+				  Turtle Photo
+		   ^---^---^---^---^---^---^---^---> 		
+		   
+		  <div class="path-card__flex-item">
+		   <div class="otherPages" data-modal="modalSeven">
+ 
+			<div class="padding-10">
+			 <img src="images/deaconess-hospital/turtle.jpg" class="img-responsive-centered border shadow" alt="turtle" >
+			</div>
+ 
+			 <div class="path-card__title-container">
+			  <div class="path-card__container-a">
+			 
+			   <div class="path-card__title">Turtle</div>	
+			 
+			   <div class="path-card__icon">
+				<img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			   </div>		
+			 
+			   <div class="pinkStrip_65-one"></div>
+			   <div class="pinkStrip_65-two"></div>
+			   <div class="pinkStrip_55-three"></div>
+			   <div class="pinkStrip_55-four"></div>
+			   <div class="pinkStrip_45-five"></div>
+			   <div class="pinkStrip_45-six"></div>
+			   <div class="pinkStrip_35-seven"></div>
+			   <div class="pinkStrip_35-eight"></div>
+		 
+			 </div><!--container-a-->
+			 <div class="path-card__container-b"></div>
+			</div><!--title-container-->
+		  
+		   </div><!--otherPages-->
+		  </div><!--flex-item-->
+ 
+ 
+		  <!---^---^---^---^---^---^---^---
+					Monkeys Photo
+		   ^---^---^---^---^---^---^---^--->
+		   
+		  <div class="path-card__flex-item">
+		   <div class="otherPages" data-modal="modalEight">
+ 
+			<div class="padding-10">
+			 <img src="images/deaconess-hospital/monkey.jpg" class="img-responsive-centered border shadow" alt="monkey" >
+			</div>
+ 
+			 <div class="path-card__title-container">
+			  <div class="path-card__container-a">
+			 
+			   <div class="path-card__title">Monkeys</div>	
+			 
+			   <div class="path-card__icon">
+				<img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			   </div>		
+			 
+			   <div class="pinkStrip_65-one"></div>
+			   <div class="pinkStrip_65-two"></div>
+			   <div class="pinkStrip_55-three"></div>
+			   <div class="pinkStrip_55-four"></div>
+			   <div class="pinkStrip_45-five"></div>
+			   <div class="pinkStrip_45-six"></div>
+			   <div class="pinkStrip_35-seven"></div>
+			   <div class="pinkStrip_35-eight"></div>
+		 
+			  </div><!--container-a-->
+			  <div class="path-card__container-b"></div>
+			 </div><!--title-container-->
+		  
+		   </div><!--otherPages-->
+		  </div><!--flex-item-->
+ 
+ 
+		  <!---^---^---^---^---^---^---^---
+				   Birds Photo
+		   ^---^---^---^---^---^---^---^--->
+		   
+		  <div class="path-card__flex-item">
+		   <div class="otherPages" data-modal="modalNine">
+ 
+			<div class="padding-10">
+			 <img src="images/deaconess-hospital/birds.jpg" class="img-responsive-centered border shadow" alt="birds" >
+			</div>
+ 
+			 <div class="path-card__title-container">
+			  <div class="path-card__container-a">
+			 
+			   <div class="path-card__title">Birds</div>	
+			 
+			   <div class="path-card__icon">
+				<img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			   </div>		
+			 
+			   <div class="pinkStrip_65-one"></div>
+			   <div class="pinkStrip_65-two"></div>
+			   <div class="pinkStrip_55-three"></div>
+			   <div class="pinkStrip_55-four"></div>
+			   <div class="pinkStrip_45-five"></div>
+			   <div class="pinkStrip_45-six"></div>
+			   <div class="pinkStrip_35-seven"></div>
+			   <div class="pinkStrip_35-eight"></div>
+		 
+			  </div><!--container-a-->
+			  <div class="path-card__container-b"></div>
+			 </div><!--title-container-->
+		  
+		   </div><!--otherPages-->
+		  </div><!--flex-item-->
+		
+ 
+		  <!---^---^---^---^---^---^---^---
+				   Camel Photo
+		   ^---^---^---^---^---^---^---^--->
+				  
+		  <div class="path-card__flex-item">
+		   <div class="otherPages" data-modal="modalTen">
+ 
+			<div class="padding-10">
+			 <img src="images/deaconess-hospital/camel.jpg"  class="img-responsive-centered border shadow" alt="camel" >
+			</div>
+ 
+			 <div class="path-card__title-container">
+			  <div class="path-card__container-a">
+			 
+			   <div class="path-card__title">Camel</div>	
+			 
+			   <div class="path-card__icon">
+				<img src="images/deaconess-hospital/modal-symbol.png" alt="modal-symbol" width="66" height="37.5" >
+			   </div>		
+			 
+			   <div class="pinkStrip_65-one"></div>
+			   <div class="pinkStrip_65-two"></div>
+			   <div class="pinkStrip_55-three"></div>
+			   <div class="pinkStrip_55-four"></div>
+			   <div class="pinkStrip_45-five"></div>
+			   <div class="pinkStrip_45-six"></div>
+			   <div class="pinkStrip_35-seven"></div>
+			   <div class="pinkStrip_35-eight"></div>
+		 
+			  </div><!--container-a-->
+			  <div class="path-card__container-b"></div>
+			 </div><!--title-container-->
+		  
+		   </div><!--otherPages-->
+		  </div><!--flex-item-->
+		  
+ 
+		</div><!--flex-container-->
+	   </section>
+	  </div><!--path-card__bg-->
+ 
+ 
+	  <!--=--=--=--=--=--=--=--=--=--=--=
+	  ---=---=---=---=---=---=---=---=---
+		Zoo Story Modal Window Section     
+	  =---=---=---=---=---=---=---=---=--
+	  =--=--=--=--=--=--=--=--=--=--=---> 
+ 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Sun Bear Modal Header
+	  ^---^---^---^---^---^---^---^--->
+	  
+	  <div id="modalFive" class="modal">
+		<div class="storyModal">	
+			   
+		<div class="storyModal-header"> 			 
+		 <div class="storyModal-header-container">
+				 
+		  <div class="grid-66">
+		   <div class="storyModal-title square-title">Sun Bear</div>
+		  </div>
+				 
+		  <div class="grid-33">
+		   <div class="exit-shape__container">
+			 
+			<div class="close-button">  
+			 <div class="exit-icon__container">	  
+			  <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			  <div class="exit-icon__title">Close</div>
+			 </div><!--exit-container-->
+			</div><!--close-button-->
+				 
+		   </div><!--trapezoid-->
+		  </div><!--grid-33-->
+	 
+		 </div><!--storyModal-header-container-->		     
+		</div><!--storyModal-header-->	
+				 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Sun Bear Modal Body
+	  ^---^---^---^---^---^---^---^--->	
+				  
+		<div class="storyModal-body">
+		 <div class="storyModal-content square">
+			   
+		  <div class="square-item sun-bear bg-img"></div>
+		  
+		  <div class="square-item"></div>
+		  
+		  <div class="square-item">
+		   <h2 class="accent-story">The Story</h2>
+			<p class="storyModal-words">
+			 Fong was a fun bear little bear to work with.  In fact, I was surprised by how little of a bear he is.  
+			 Turns out that sun bears are the smallest bears in the world.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 While for some of the animals I worked with, I would get in the cages with them.  For my photo session with 
+			 Fong, I moved myself to the back of his cage and interacted with him from there.  Fong's nails were enormous,
+			 they help him climb trees.  I did not need those nails digging into my skin. 
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 So how do you get a Sun Bear like Fong to pose for the camera?  Throw him fruit and make him happy.  Hence why
+			 you can see in the photo remnants of the strawberries that I gave him and a pear in his claw.
+			</p>
+			
+			<br><br>
+			
+		   <h2 class="accent-story">The Equipment</h2>   
+			<p class="storyModal-words">
+			 The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.
+			</p>
+			
+			<br><br>
+			
+		  </div><!--square-item-->
+			   
+		 </div><!--content-->
+		</div><!--body-->
+					 
+	   </div><!--storyModal-->
+	  </div><!--modalFive-->
+ 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Red Panda Modal Header
+	  ^---^---^---^---^---^---^---^--->
+	  
+	  <div id="modalSix" class="modal">
+		<div class="storyModal">	
+			   
+		<div class="storyModal-header"> 			 
+		 <div class="storyModal-header-container">
+				 
+		  <div class="grid-66">
+		   <div class="storyModal-title square-title">Red Panda</div>
+		  </div>
+				 
+		  <div class="grid-33">
+		   <div class="exit-shape__container">
+			 
+			<div class="close-button">  
+			 <div class="exit-icon__container">	  
+			  <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			  <div class="exit-icon__title">Close</div>
+			 </div><!--exit-container-->
+			</div><!--close-button-->
+				 
+		   </div><!--trapezoid-->
+		  </div><!--grid-33-->
+	 
+		 </div><!--storyModal-header-container-->		     
+		</div><!--storyModal-header-->	
+				 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Red Panda Modal Body
+	  ^---^---^---^---^---^---^---^--->	
+				  
+		<div class="storyModal-body">
+		 <div class="storyModal-content square">
+			   
+		  <div class="square-item red-panda bg-img"></div>
+		  
+		  <div class="square-item"></div>
+		  
+		  <div class="square-item">
+		   <h2 class="accent-story">The Story</h2>
+			<p class="storyModal-words">
+			 Working with Celeste the red panda was on fo the highlights of designing the children's hospital.
+			 Celeste's photograph of her smiling at me was easily a highlight of all my photos.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 Getting this magical shot required me to spend a lot of time with Celeste and her boyfriend Max.  My first
+			 photo session with the red pandas was inside of their resting space.  Their resting space had trees and very
+			 low light.  Despite having a low light aperture of 1.4, it was still too dark to capture the red pandas.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			  After not getting great photos from the first photo session, I asked if I could do another photo session in 
+			  the daylight outside.  So I looked at the weather forecast and set a date a few days later.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 The second photo session turned out the perfect results for the hospital.  The only funny thing is that at the 
+			 end of our photo session.  Max the red panda was acting all territorial with me.  I looked at him and said "buddy,
+			 she's not my type".  Well Max just went ahead inside and let me finish the photo session with Celeste.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 Celeste was extremely photogenic.  She was posing without me even asking her to do much.  She just keep on smiling
+			 for me.
+			</p>
+			
+			<br><br>
+			
+			<h2 class="accent-story">The Equipment</h2>   
+			<p class="storyModal-words">
+			 The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.
+			</p>
+			
+			<br><br>
+			
+		  </div><!--square-item-->
+			   
+		 </div><!--content-->
+		</div><!--body-->
+					 
+	   </div><!--storyModal-->
+	  </div><!--modalSix-->
+ 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Turtle Modal Header
+	  ^---^---^---^---^---^---^---^--->
+	  
+	  <div id="modalSeven" class="modal">
+		<div class="storyModal">	
+			   
+		<div class="storyModal-header"> 			 
+		 <div class="storyModal-header-container">
+				 
+		  <div class="grid-66">
+		   <div class="storyModal-title square-title">Turtle</div>
+		  </div>
+				 
+		  <div class="grid-33">
+		   <div class="exit-shape__container">
+			 
+			<div class="close-button">  
+			 <div class="exit-icon__container">	  
+			  <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			  <div class="exit-icon__title">Close</div>
+			 </div><!--exit-container-->
+			</div><!--close-button-->
+				 
+		   </div><!--trapezoid-->
+		  </div><!--grid-33-->
+	 
+		 </div><!--storyModal-header-container-->		     
+		</div><!--storyModal-header-->	
+				 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Turtle Modal Body
+	  ^---^---^---^---^---^---^---^--->	
+				  
+		<div class="storyModal-body">
+		 <div class="storyModal-content square">
+			   
+		  <div class="square-item turtle bg-img"></div>
+		  
+		  <div class="square-item"></div>
+		  
+		  <div class="square-item">
+		   <h2 class="accent-story">The Story</h2>
+			<p class="storyModal-words">
+			 While most of the animals I worked with I knew their names. With the turtles, I never asked. I spent about two days photographing the ten or so turtles.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 Getting this shot, took forever. The turtles were so slow that I almost found myself getting bored hanging out with them all day. Yet once this turtle looked up at me like this, I was like that is the magical moment! 
+			</p>
+			
+			<br><br>
+			
+		   <h2 class="accent-story">The Equipment</h2>   
+			<p class="storyModal-words">
+			 The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 
+			 lens with a Panasonic GX8 body.
+			</p>
+			
+			<br><br>
+			
+		  </div><!--square-item-->
+			   
+		 </div><!--content-->
+		</div><!--body-->
+					 
+	   </div><!--storyModal-->
+	  </div><!--modalSeven-->
+ 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Monkeys Modal Header
+	  ^---^---^---^---^---^---^---^--->
+	  
+	  <div id="modalEight" class="modal">
+		<div class="storyModal">	
+			   
+		<div class="storyModal-header"> 			 
+		 <div class="storyModal-header-container">
+				 
+		  <div class="grid-66">
+		   <div class="storyModal-title square-title">Monkeys</div>
+		  </div>
+				 
+		  <div class="grid-33">
+		   <div class="exit-shape__container">
+			 
+			<div class="close-button">  
+			 <div class="exit-icon__container">	  
+			  <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			  <div class="exit-icon__title">Close</div>
+			 </div><!--exit-container-->
+			</div><!--close-button-->
+				 
+		   </div><!--trapezoid-->
+		  </div><!--grid-33-->
+	 
+		 </div><!--storyModal-header-container-->		     
+		</div><!--storyModal-header-->	
+				 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Monkeys Modal Body
+	  ^---^---^---^---^---^---^---^--->		
+			  
+		<div class="storyModal-body">
+		 <div class="storyModal-content square">
+			   
+		  <div class="square-item monkies bg-img"></div>
+		  
+		  <div class="square-item"></div>
+		  
+		  <div class="square-item">
+		   <h2 class="accent-story">The Story</h2>
+			<p class="storyModal-words">
+			 My daughter loves the story of this photo. As we were finishing up the designs for the hospital, I received a phone call from the zoo. The zoo keeper told me that a baby monkey had broken her leg.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 The zoo staff was going to put a cast on her leg and thought that would be wonderful shot for the children's hospital.  It could be featured in the broken bone unit, so kids can see that even baby monkey can break a bone too.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 So we devised a plan on getting the baby monkey and her mother in the back cages.  Once I got all the equipment setup. We opened up the gate and let the baby monkey and mama monkey in the farthest cages. 
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 As I began to get the photo session underway, the father monkey bust in from the outside cage. The father monkey started making loud sounds.  All these loud sounds were unnerving the mama and daughter monkey. The male monkey then put his head between the bars and was signaling me to fight with him.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 At the same time as the father monkey was wanting to fight me, I learned something that I did not plan for. The monkeys were fast. I have never seen animals move that fast jumping around. I actually having nothing to compare it to. Either way my shots were blurry and the father monkey wanted to fight me. So I was just like... okay this is not going to work.  
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 So I devised another plan on getting the right shot a few days later. This time, I went to the front outside cage and the father monkey saw me and immediately wanted to fight again. This time was actually funny as the father monkey tried to urinate on me. He also used to fingers to signal me over to the cage.	 		   
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 At the same time the zoo keeper let the mother and daughter monkey into the back cages.  Except this time he closed the gate so the male monkey would not be able to disrupt the photo session again. I waved goodbye to the father monkey and he looked and saw the gate closed with the mother and daughter gone. He knew I had fooled him, it was kind of funny but cute how protective he was of them.	
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 What I also did this time too, was brought a female friend of mine who loves animals. She sweet talked the mama and daughter monkey to calm down and be still. It was then that I was finally able to get the shot of the mother and daughter monkey sitting there .
+			</p>
+			
+			<br><br>
+			
+			<h2 class="accent-story">The Equipment</h2>   
+			<p class="storyModal-words">
+			 The equipment I used on this photo is the Leica DG Summilux 15mm f/1.7 lens with a Panasonic GX8 body.
+			</p>
+			
+			<br><br>
+			
+		  </div><!--square-item-->
+			   
+		 </div><!--content-->
+		</div><!--body-->
+					 
+	   </div><!--storyModal-->
+	  </div><!--modalEight-->
+ 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Birds Modal Header
+	  ^---^---^---^---^---^---^---^--->
+	  
+	  <div id="modalNine" class="modal">
+		<div class="storyModal">	
+			   
+		<div class="storyModal-header"> 			 
+		 <div class="storyModal-header-container">
+				 
+		  <div class="grid-66">
+		   <div class="storyModal-title square-title">Birds</div>
+		  </div>
+				 
+		  <div class="grid-33">
+		   <div class="exit-shape__container">
+			 
+			<div class="close-button">  
+			 <div class="exit-icon__container">	  
+			  <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			  <div class="exit-icon__title">Close</div>
+			 </div><!--exit-container-->
+			</div><!--close-button-->
+				 
+		   </div><!--trapezoid-->
+		  </div><!--grid-33-->
+	 
+		 </div><!--storyModal-header-container-->		     
+		</div><!--storyModal-header-->	
+				 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Birds Modal Body
+	  ^---^---^---^---^---^---^---^--->	
+				  
+		<div class="storyModal-body">
+		 <div class="storyModal-content square">
+			   
+		  <div class="square-item birds bg-img"></div>
+		  
+		  <div class="square-item"></div>
+		  
+		  <div class="square-item">
+		   <h2 class="accent-story">The Story</h2>
+			<p class="storyModal-words">
+			 I spent two days photographing the birds.  They have such personalities and were fun to work with.  With photographing
+			 birds, it's a lot of being patient and waiting for the right moment.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 This shot came from me watching the birds be affectionate with each other.  Which was adorable to watch.  I watched a lot
+			 of birds other than these birds do failed mating calls.  That also made me laugh.  However with these birds, they were 
+			 already in love.    
+			</p>
+			
+			<br><br>
+			
+			<h2 class="accent-story">The Equipment</h2>   
+			<p class="storyModal-words">
+			 The equipment I used on this photo is the Leica DG Summilux 25mm f/1.4 lens with a Panasonic GX8 body.
+			</p>
+			 
+		  </div><!--square-item-->
+			   
+		 </div><!--content-->
+		</div><!--body-->
+					 
+	   </div><!--storyModal-->
+	  </div><!--modalNine-->
+		
+ 
+	  <!---^---^---^---^---^---^---^---
+			Camel Modal Header
+	  ^---^---^---^---^---^---^---^--->
+	  
+	  <div id="modalTen" class="modal">
+		<div class="storyModal">	
+			   
+		<div class="storyModal-header"> 			 
+		 <div class="storyModal-header-container">
+				 
+		  <div class="grid-66">
+		   <div class="storyModal-title square-title">Camel</div>
+		  </div>
+				 
+		  <div class="grid-33">
+		   <div class="exit-shape__container">
+			 
+			<div class="close-button">  
+			 <div class="exit-icon__container">	  
+			  <img src="images/icons/close-button.svg" alt="close-button" width="40" height="40">
+			  <div class="exit-icon__title">Close</div>
+			 </div><!--exit-container-->
+			</div><!--close-button-->
+				 
+		   </div><!--trapezoid-->
+		  </div><!--grid-33-->
+	 
+		 </div><!--storyModal-header-container-->		     
+		</div><!--storyModal-header-->	
+				 
+ 
+	  <!---^---^---^---^---^---^---^---
+			Camel Modal Body
+	  ^---^---^---^---^---^---^---^--->	
+				  
+		<div class="storyModal-body">
+		 <div class="storyModal-content square">
+			   
+		  <div class="square-item camel bg-img"></div>
+		  
+		  <div class="square-item"></div>
+		  
+		  <div class="square-item">
+		   <h2 class="accent-story">The Story</h2>
+			<p class="storyModal-words">
+			 Franklin the camel.  I will never forget my brief photo session with him.  Franklin had a huge field as
+			 his container.  Kind of like in jurassic park where the t-rex was in a field but had huge walls to stop 
+			 him from escaping.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 I entered Franklin's gated field with his primary care taker.  She informed me on the basics, which was that
+			 Franklin liked to eat the leaves on branches and sometimes the branches themselves.  She informed me
+			 to not get too close to Franklin.  That he could try to eat my camera and could crush my head with his 
+			 jaw.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 I was a little taken back, as I thought camel's were nice.  Franklin was just lying down calmly in the sunlight. 
+			 As we got closer to Franklin the camel, the caretaker said "oh and I forgot to tell you that nobody has ever 
+			 gone this close to him before".   
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 Right as she told me that, Franklin lifted himself off the ground and started making his way towards us.  
+			 I put my eye to the view finder and just started photographing.  As he got closer, the caretaker put out a 
+			 branch and that calmed him down as he started eating the leaves.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 However I guess he got bored with that because the woman caretaker yelled RUN!  Well I made a mistake in judgement 
+			 and ran the wrong way.  Next thing I know, I am screaming like a girl and Franklin and me are running around in 
+			 circles.
+			</p>
+			
+			<br><br>
+			
+			<p class="storyModal-words">
+			 Unknown to me at the time, but I had an audience of children and their families watching me at the top of the gates
+			 on both sides of the field.  Apparently I made all the families laugh.  Either way I heard the caretaker yell, run
+			 through the gates.  So I ran and leaped through that gate.
+			</p>
+			
+			<br><br>
+			
+			<h2 class="accent-story">The Equipment</h2>   
+			<p class="storyModal-words">
+			 The equipment I used on this photo is the Leica DG Vario-Elmarit 12-60mm f/2.8-4 lens with a Panasonic GX8 body.
+			</p>
+			
+			<br><br>
+ 
+		  </div><!--square-item-->
+			   
+		 </div><!--content-->
+		</div><!--body-->
+					 
+	   </div><!--storyModal-->
+	  </div><!--modalTen-->	   
+		
+	   
+	   
+	 <!---^---^---^---^---^---^---^---
+	            The Design
+     ^---^---^---^---^---^---^---^---> 
+     
+	 <section>     	   	 
+	  <article>
+	    
+	   <div class="title-area">
+	    <h2>The Solution:</h2>
+	    <h1 class="accent">Design</h1>
+	   </div>
+	    
+	   <div class="content-area">
+		
+	    <p>
+		 So I mapped out the most beautiful places in Evansville and its surrounding areas. The four-month journey began. One of the things that separated our designs from many other children’s hospitals. Was that we were going to make enormous prints of photography to make the children feel like they were in the environments.  
+
+		<br><br>
+
+		 These photos were photographed at extremely high megapixels. Our Angel Mounds photo was printed 30 feet wide by 15 feet tall. The Angel Mounds photo was a whopping 253 megapixels. Even our Wesselman Woods photo that was printed 16 feet wide by 10 feet tall was 50 megapixels.
+
+		<br><br>
+
+		</p>
+		 
+	   </div>
+	     
+	  </article>	
+	 </section>
+
+
+	 <!---^---^---^---^---^---^---^---
+	            The Result
+     ^---^---^---^---^---^---^---^--->  
+     
+	 <section>
+	  <article class="no-underline">
+	    
+	   <div class="title-area">
+	    <h2>The Result</h2>
+	   </div>
 	    
 	    <div class="content-area">
 		
 		 <p>
-		 We had our grand opening and their were hundreds of people that attended.  My friends that came with me were surprised that I was not boosting about my work.  
-		 Instead I walked around and watched how the children interacted with the environment.  
+		  We had our grand opening and there were hundreds of people that attended. My friends that came with me were surprised that I was not boosting my work. Instead, I walked around and watched how the children interacted with the environment.  
 
 		 <br><br>
 
-		 To my delight, I watched a little boy go over the angel mounds 30 foot printed photo.  The little boy danced around the backdrop and told his mother in delight
-		 “Mommy it’s like I am at the Angel Mounds”.
+		  To my delight, I watched a little boy go over the angel mounds 30 foot printed photo. The little boy danced around the backdrop and told his mother in delight “Mommy it’s like I am at the Angel Mounds”.
 		 </p>
+		 
 	    </div>
 	    
-	   </article>
-	   	   
-	   </section>
+	  </article>
+	 </section>
 
-	   <section>
-	    <div class="polariod__flex-container">
+
+	 <!--=--=--=--=--=--=--=--=--=--=--=
+	 ---=---=---=---=---=---=---=---=---
+	     Hospital opening polariods     
+	 =---=---=---=---=---=---=---=---=--
+	 =--=--=--=--=--=--=--=--=--=--=---> 
+	 
+
+	 <section>
+	  <div class="polariod__flex-container">
 		 
-		 <div class="polariod__flex-item transform-p3">
-		  <div class="polariod__image">
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-1.jpg" alt="deaconess-thumb-1" width="720" height="600" >
-		  </div>
-		  <h3 class="polariod__title">Hospital Opening</h3>
-		 </div>   
+	   <div class="polariod__flex-item transform-p3">
+	    <div class="polariod__image">
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-1.jpg" alt="deaconess-thumb-1" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Hospital Opening</h3>
+	   </div>   
 		
-		 <div class="polariod__flex-item transform-p5">
-		  <div class="polariod__image">
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-2.jpg" alt="deaconess-thumb-2" width="720" height="600" >
-		  </div>
-		  <h3 class="polariod__title">Paths of Nature</h3>
-		 </div>  
+	   <div class="polariod__flex-item transform-p5">
+		<div class="polariod__image">
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-2.jpg" alt="deaconess-thumb-2" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Paths of Nature</h3>
+	   </div>  
 
-		 <div class="polariod__flex-item transform-n5">
-		  <div class="polariod__image">
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-3.jpg" alt="deaconess-thumb-3" width="720" height="600" >
-		  </div>
-		  <h3 class="polariod__title">Wesselman Woods</h3>
-		 </div>  
+	   <div class="polariod__flex-item transform-n5">
+	    <div class="polariod__image">
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-3.jpg" alt="deaconess-thumb-3" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Wesselman Woods</h3>
+	   </div>  
 		  
-		 <div class="polariod__flex-item transform-n3">
-		  <div class="polariod__image">
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-4.jpg" alt="deaconess-thumb-4" width="720" height="600" >
-		  </div>
-		  <h3 class="polariod__title">Angel Mounds 1</h3>
-		 </div>  
+	   <div class="polariod__flex-item transform-n3">
+	    <div class="polariod__image">
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-4.jpg" alt="deaconess-thumb-4" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Angel Mounds 1</h3>
+	   </div>  
 
-		 <div class="polariod__flex-item transform-n5">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-5.jpg" alt="deaconess-thumb-5" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">Angel Mounds 2</h3>
-		 </div>   
+	   <div class="polariod__flex-item transform-n5">
+	    <div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-5.jpg" alt="deaconess-thumb-5" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Angel Mounds 2</h3>
+	   </div>   
 		 
-		 <div class="polariod__flex-item transform-p5">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-6.jpg" alt="deaconess-thumb-6" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">Tara and I</h3>
-		 </div>  
+	   <div class="polariod__flex-item transform-p5">
+	    <div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-6.jpg" alt="deaconess-thumb-6" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Tara and I</h3>
+	   </div>  
 
-		 <div class="polariod__flex-item transform-n3">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-7.jpg" alt="deaconess-thumb-7" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">My wife Missy and me</h3>
-		 </div>   
+	   <div class="polariod__flex-item transform-n3">
+		<div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-7.jpg" alt="deaconess-thumb-7" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">My wife Missy and me</h3>
+	   </div>   
 		 
-		 <div class="polariod__flex-item transform-p3">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-8.jpg" alt="deaconess-thumb-8" width="720" height="600" >   
-		  </div>
-		   <h3 class="polariod__title">Designed furniture</h3>   
-		 </div>  
+	   <div class="polariod__flex-item transform-p3">
+		<div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-8.jpg" alt="deaconess-thumb-8" width="720" height="600" >   
+		</div>
+		<h3 class="polariod__title">Designed furniture</h3>   
+	   </div>  
 
-		 <div class="polariod__flex-item transform-p5">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-9.jpg" alt="deaconess-thumb-9" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">Tara's Tree</h3>
-		 </div> 
+	   <div class="polariod__flex-item transform-p5">
+		<div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-9.jpg" alt="deaconess-thumb-9" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Tara's Tree</h3>
+	   </div> 
 		    
-		 <div class="polariod__flex-item transform-p3">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-10.jpg" alt="deaconess-thumb-10" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">Tara's Tree far</h3>
-		 </div>  
+	   <div class="polariod__flex-item transform-p3">
+	    <div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-10.jpg" alt="deaconess-thumb-10" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Tara's Tree far</h3>
+	   </div>  
 
-		 <div class="polariod__flex-item transform-n7">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-11.jpg" alt="deaconess-thumb-11" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">Garvin Park</h3>
-		 </div>   
+	   <div class="polariod__flex-item transform-n7">
+		<div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-11.jpg" alt="deaconess-thumb-11" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Garvin Park</h3>
+	   </div>   
 		 
-		 <div class="polariod__flex-item transform-p7">
-		  <div class="polariod__image"> 
-		   <img src="images/deaconess-hospital/polariods/deaconess-thumb-12.jpg" alt="deaconess-thumb-12" width="720" height="600" >
-		  </div>
-		   <h3 class="polariod__title">Exam Room</h3>
-		 </div>  
+	   <div class="polariod__flex-item transform-p7">
+		<div class="polariod__image"> 
+		 <img src="images/deaconess-hospital/polariods/deaconess-thumb-12.jpg" alt="deaconess-thumb-12" width="720" height="600" >
+		</div>
+		<h3 class="polariod__title">Exam Room</h3>
+	   </div>  
   
-	    </div>
-	   </section>
+	  </div>
+	 </section>
 	   	   	   		   	  	    
 	 
-	 </main>
+	</main>
 
+
+	 <!--=--=--=--=--=--=--=--=--=--=--=
+	 ---=---=---=---=---=---=---=---=---
+	    The Footer end of webpage     
+	 =---=---=---=---=---=---=---=---=--
+	 =--=--=--=--=--=--=--=--=--=--=---> 
+	 
 	
 	 <footer>
 	  <section>
@@ -777,11 +1719,11 @@
 	    <div class="flexFooter-item">
 		 <div class="footer-title">About this Website</div>
 		  <p> <strong>DESIGNED</strong> in Sketch and Photoshop.</p>
-		  <br />
+		  <br>
 		  <p> <strong>CODED</strong> in HTML, Dart Sass modules<br>and Javascript.</p>
-		  <br />
-		  <br />
-		  <br />
+		  <br>
+		  <br>
+		  <br>
 		  <p>Copyright ©2020 Drew Goff</p>
 	     </div>      
 	   
@@ -792,11 +1734,10 @@
 	 </footer>
 
 
-	 <!-- JavaScript
-	 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- JavaScript
+    –––––––––––––––––––––––––––––––––––––– -->
 	 <script src="js/dg-action.js"></script>
-	 <script src="js/prism.js"></script>
-	  
+	 	  
 	   	 
 	</body>
 </html>

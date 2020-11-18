@@ -1,0 +1,247 @@
+//======================
+//   Sass Variables
+//======================
+$title-font:	      'Anton', sans-serif;
+$bold-font-weight: 	400;
+$dark-grey-blue: 	  #313133;
+$white:   		 	    #f2f2f2;
+$super-white:		    #ffffff;
+$dark-black-blue: 	#252526;
+
+
+/*--=--=--=--=--=--=--=--=--=--=--=
+---=---=---=---=---=---=---=---=---
+       Story Modal Begins     
+=---=---=---=---=---=---=---=---=--
+=--=--=--=--=--=--=--=--=--=--=--*/
+
+
+/* ---^---^---^---^---^---^---^---^---^---^---^
+   Level 1: Story Modal total container
+^---^---^---^---^---^---^---^---^---^---^---^ */
+.storyModal {
+  padding: 13px;
+  margin: 3% auto 0 auto; 
+  max-width: 1140px; 
+}
+
+
+/* ---^---^---^---^---^---^---^---^---^---^---^
+   Level 2: Story Modal Header
+^---^---^---^---^---^---^---^---^---^---^---^ */
+
+/*  Story Modal header background and size
+––––––––––––––––––––––––––––––––––––––-–––––- */
+.storyModal-header {
+  background-image: linear-gradient(180deg, #FF4D79 0%, #FF3366 52%, #EA2E6D 100%);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.50);	
+  height: 90px;
+  position: relative;
+  z-index: 1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/*  Story Modal header flexBox containers
+––––––––––––––––––––––––––––––––––––––-–––––- */
+.storyModal-header-container { display: flex; flex-wrap: nowrap; }
+.grid-33 { width: calc(33.3333%); }
+.grid-66 { width: calc(66.6666%); }
+
+/*  Story Modal header title
+––––––––––––––––––––––––––––––––––––––-–––––- */
+.storyModal-title {
+  color: $super-white;
+  font-family: $title-font;
+  font-weight: $bold-font-weight;	
+  font-size: 30px;
+  letter-spacing: 1.61px;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  width: 140px;
+}
+
+.wide-title { padding: 10px 0 0 15px; width: 130px; }
+.square-title { padding: 28px 0 0 15px; width: 300px; }
+
+/*  Story Modal header exit area
+––––––––––––––––––––––––––––––––––––––-–––––- */
+.exit-shape__container {
+  border-bottom: 90px solid $dark-grey-blue;
+  border-left: 25px solid transparent;
+  height: 0;
+  position: absolute; 
+  right: 0;
+  top: 0;
+  width: 125px;
+  border-top-right-radius: 4px;
+}
+
+.exit-icon__container { margin: 14px 0 0 25px; }
+.exit-icon__container:hover { cursor: pointer; opacity: 0.7; }
+
+.exit-icon__title {
+  font-family: $title-font;
+  font-weight: $bold-font-weight;
+  letter-spacing: 1px;
+  margin-top: -6px;
+}
+
+
+/* ---^---^---^---^---^---^---^---^---^---^---^
+   Level 3: Story Modal body container
+^---^---^---^---^---^---^---^---^---^---^---^ */
+
+.storyModal-body {
+  background: linear-gradient(280deg, rgba(49,49,51,1) 20%, rgba(255,77,121,1) 100%);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.50);
+  padding-bottom: 10px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+
+/* ---^---^---^---^---^---^---^---^---^---^---^
+ Level 4: Story Modal content container
+^---^---^---^---^---^---^---^---^---^---^---^ */
+
+.storyModal-content {
+  display: flex; 
+  background-color: $super-white;
+  border-radius: 1px;
+  margin: 0 10px 0 10px;	
+  transition: 0.3s ease-in-out;
+}
+
+/*  Story Modal wide content
+––––––––––––––––––––––––––––––––––––––-–––––- */
+.wide {
+  flex-flow: column nowrap;
+  height: 70vh;
+}
+
+.wide-item:nth-child(1) { 
+  width: 100%; 
+  height: 100vh; 
+}
+.wide-item:nth-child(2) { 
+  background: linear-gradient(280deg, rgba(49,49,51,1) 20%, rgba(255,77,121,1) 100%); 
+  width: 100%;
+  height: 25px; 
+}
+.wide-item:nth-child(3) { 
+  width: 100%;  
+  height: 60vh;
+  padding: 10px 15px 10px 15px; 
+  overflow: scroll;  
+}
+
+/*  Story Modal wide media queries
+––––––––––––––––––––––––––––––––––––––-–––––- */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: portrait) {
+ .wide { height: 60vh; }
+ .wide-item:nth-child(1) { height: 30vh; }
+ .wide-item:nth-child(2) { height: 13px; }
+ .wide-item:nth-child(3) { height: 30vh; }
+}
+@media only screen and (max-width: 768px) {
+  .wide { height: 60vh; }
+  .wide-item:nth-child(1) { height: 27vh; }
+  .wide-item:nth-child(2) { height: 13px; }
+  .wide-item:nth-child(3) { height: 33vh; }
+}
+@media only screen and (max-width: 450px) {
+  .wide { height: 65vh; }
+  .wide-item:nth-child(1) { height: 25vh; }
+  .wide-item:nth-child(2) { height: 15px; }
+  .wide-item:nth-child(3) { height: 40vh; }
+}
+
+/*  Story Modal square content
+––––––––––––––––––––––––––––––––––––––-–––––- */
+.square {
+  flex-flow: row nowrap;
+  height: 65vh;
+}
+.square-item:nth-child(1) { 
+  width: 69%; 
+}
+.square-item:nth-child(2) { 
+  background: linear-gradient(280deg, rgba(49,49,51,1) 20%, rgba(255,77,121,1) 100%); 
+  width: 1%; 
+}
+.square-item:nth-child(3) { 
+  width: 30%; 
+  padding: 10px 15px 10px 15px; 
+  overflow: scroll; 
+}
+
+/*  Story Modal square media queries
+––––––––––––––––––––––––––––––––––––––-–––––- */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+and (orientation: portrait) {
+  .square { height: 40vh; }
+}
+
+@media only screen and (max-width: 768px) {
+  .square { flex-flow: column nowrap; height: 75vh; }
+  .square-item:nth-child(1) { width: 100%; height: 100vh; }
+  .square-item:nth-child(2) { width: 100%; height: 13px; }
+  .square-item:nth-child(3) { width: 100%; height: 40vh; }
+}
+
+@media only screen and (max-width: 450px) {
+  .square { height: 65vh; }
+  .square-item:nth-child(1) { height: 100vh; }
+  .square-item:nth-child(2) { height: 15px; }
+  .square-item:nth-child(3) { height: 60vh; }
+}
+
+
+/* ---^---^---^---^---^---^---^---^---^---^---^
+ Level 5: Story Modal square backgrounds
+^---^---^---^---^---^---^---^---^---^---^---^ */
+
+.wesselman-woods { background-image: url("../images/deaconess-hospital/wesselman-woods-web.jpg"); }
+.angel-mounds    { background-image: url("../images/deaconess-hospital/angel-mounds-web.jpg"); }
+.ellis-park      { background-image: url("../images/deaconess-hospital/ellis-park-web.jpg"); }
+.eagle-slough    { background-image: url("../images/deaconess-hospital/eagle-slough-web.jpg"); }
+.sun-bear        { background-image: url("../images/deaconess-hospital/sun-bear.jpg"); }
+.red-panda       { background-image: url("../images/deaconess-hospital/red-panda.jpg"); }
+.turtle          { background-image: url("../images/deaconess-hospital/turtle.jpg"); }
+.monkies         { background-image: url("../images/deaconess-hospital/monkey.jpg"); }
+.birds           { background-image: url("../images/deaconess-hospital/birds.jpg"); }
+.camel           { background-image: url("../images/deaconess-hospital/camel.jpg"); }
+
+.bg-img { background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+
+/* ---^---^---^---^---^---^---^---^---^---^---^
+ Level 6: Story Modal wide writing classes
+^---^---^---^---^---^---^---^---^---^---^---^ */
+
+.css-columns {
+  column-count: 3;
+  column-gap: 40px;
+  column-width: 100px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  color: $dark-black-blue;
+}
+
+@media only screen and (max-width: 768px) { .css-columns  { column-count: 2; }}
+@media only screen and (max-width: 450px) { .css-columns  { column-count: 1; }}
+
+p.storyModal-words {
+  color: $dark-black-blue;
+  max-width: 650px;
+}

@@ -7,8 +7,8 @@
 	   <meta charset="UTF-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	   <meta name="description" content="The about page of UX/UI Designer Drew Goff">
-	   <meta name="keywords" content="UX/UI Designer, ux/ui designer, Drew Goff, drew goff, Indianapolis, Westfield">
+	   <meta name="description" content="The about page of UX/UI Developer Drew Goff">
+	   <meta name="keywords" content="UX/UI Developer, ux/ui developer, Drew Goff, drew goff, Indianapolis, Westfield, Peoria, Washington DC">
 	   <meta name="author" content="Drew Goff">
 	   <meta name="msapplication-TileColor" content="#ea2e6d">
 	   <meta name="theme-color" content="#252526">
@@ -41,23 +41,29 @@
 	   	         	   	   
 	</head>
 
-	<body>
-	 
+	<body class="preload-transitions">
+	 	 
 	 <header>     
 	  <section>
 	      
-	   <div class="desktop-nav-container">
-	  
-	    <div class="desktop-nav-item">
+	   <nav class="desktop-nav-container">
+	 
+	    <!--==============================
+	       Logo for desktop and mobile 
+	    ===============================--> 
+	    <div aria-label="Where the logo and title is" class="desktop-nav-item">
 	     <a href="index.html">
 	      <div id="logo">
 		   <div id="name">DREW GOFF</div> 
-		   <div id="title">UX<span class="highlight">/</span>UI Designer</div>
-	      </div><!--logo-->
+		   <div id="title">UX<span class="highlight">/</span>UI Developer</div>
+	      </div> 
 	     </a>
-	    </div><!--desktop-nav-item-->
+	    </div>
 	  
-	    <div class="desktop-nav-item">
+     	<!--==============================
+	         Desktop navigation menu 
+	    ===============================-->
+	    <div aria-label="Desktop navigation menu" class="desktop-nav-item">
 	     <div class="desktop-nav">
 		  <ul> 
 		   <li><a class="top-nav" href="index.html">Portfolio</a></li>
@@ -69,46 +75,45 @@
 		  </ul>
 	     </div>
 	    </div>
-
-	  <!-- Toggle Navigation (Mobile only)
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
-	   <div class="mobile-nav">
-		<div id="toggle">
+  
+     	<!--==============================
+	      Mobile navigation menu toggle
+	    ===============================-->
+	    <div aria-label="Mobile navigation menu toggle" class="mobile-nav">
+		 <div id="toggle">
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
 		  <div class="ham-title">Menu</div>
-		</div>
-	   </div><!--mobile-nav-->
+		 </div>
+	    </div>
 	   
-	  </div><!--desktop-nav-container--> 
+	   </nav>
 
-	 </section>
-	</header>
-	 
-	<main role="main" aria-label="when the content begins">
-
-	  <!-- Mobile Navigation 
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->    	
-	  <div id="dropDownMenu" class="hiddenMenu">   
-	   	   
+	  </section>
+	 </header>
+   	
+      <!--==============================
+	    Mobile navigation menu tiles
+	  ===============================-->
+	  <nav aria-label="mobile navigation menu titles" class="hiddenMenu" id="dropDownMenu" >   	   
 	   <div class="mobile-flex-container">
 
 		<a class="mobile-flex-item" href="index.html">	 
 		 <img src="images/icons/portfolio-icon.svg" class="img-responsive-centered" alt="suitcase" width="85" height="70">
-		 <p class="white-link">Portfolio</p>
+		 <p class="active-link">Portfolio</p>
 		</a>
 	
 		<a class="mobile-flex-item" href="about.html">	
 		 <img src="images/icons/about-icon.svg" class="img-responsive-centered" alt="about-icon" width="85" height="70">
-		 <p class="active-link">About</p>
+		 <p class="white-link">About</p>
 		</a>
 
 		<a class="mobile-flex-item" href="lab.html">			 
 		 <img src="images/icons/lab-icon.svg" class="img-responsive-centered" alt="lab" width="85" height="70">		
 		 <p class="white-link">Lab</p>
 		</a>
-		
+
 		<a class="mobile-flex-item" href="music.html">			 
 		 <img src="images/icons/music-logo.svg" class="img-responsive-centered" alt="music" width="85" height="70">		
 		 <p class="white-link">Music</p>
@@ -125,7 +130,11 @@
 		</a>	
 	
 	   </div>
-	  </div>	
+	  </nav>
+	 
+	
+	
+	 <main aria-label="When the content begins">	
 	  
 
 	  	  <!-- About Section
@@ -142,34 +151,25 @@
 			 <h1>About</h1> 
 			 
 			 <p>
-			   I just finished my contract job with Caterpillar at the beginning of May.  It was my favorite job so far.  A combination of UX Design, UI Development and Instructional Design all in one job.
+			  I currently work at Capital One as a UX/UI Developer.  At Capital One, I work with designers and bring their designs to life by coding them
+			  in HTML, CSS (Sass) and Angular.  My average day is spent coding, coming up with solutions to design problems and communicating with designers.  
 			 </p>
 			 
 			 <br /><br />
 			 
 			 <p>
-			  So I packed up my apartment in Peoria, Illinois and came back to Westfield, Indiana.  Now that I am back home, I am searching for a new role and working on the "UX Coding" project.
+			  Previously I worked at Caterpillar inc, where I worked on a international team of designers and developers.  They brought us all together to build 
+			  the fourth generation operating system's user interface.  We designed all of our work there in Illustrator and coded them as Web Components.
 			 </p>
 			 
 			 <br /><br />
 			 
 			 <p>
-			  Like many of us during this pandemic.  I have been forced to re-examine my life path.  I have spent the last eight years as a designer making websites, web and mobile applications, 
-			  design systems, a tradeshow, print materials, 2D/3D animation videos and even helped design a children's hospital.
+			  Before working at these two companies, I started my career a decade ago as a UX/UI Designer and worked my way into being a UX/UI Developer.
 			 </p>
 			 
 			 <br /><br />
-			 
-			 <p>
-			  I am not convinced like others that UX Design is dead.  However it is changing.  UX Designers in the future will have to know JavaScript, 3D Animation, Video Production, and Design Systems.
-			 </p>
-			 
-			 <br /><br />
-			 
-			 <p>
-			  As we are beginning to come out of this pandemic... I realize it is time to mix all my skills together and become a Product/Instructional Designer.  So I will be morphing into that role next.
-			 </p>
-			   
+			 			   
 		    </div>
 		    
 		   </article>
@@ -210,7 +210,6 @@
 			    
 			   </div><!--emerge__title-area-->
 			   
-	
 			   <p>
 			    This is a really good book.  It starts off going through understanding the viewBox and preserveAspectRatio.  It then goes into
 			    teaching you how to animate SVG's with CSS. 
@@ -268,10 +267,8 @@
 			 <br /><br />
 			 
 			 <p>
-			  Whether you hire me as a UX/UI Designer and knowing my way of working will help you in evaluating whether to hire me.  
-			 </p>
-			 
- 
+			  Whether you hire me as a UX/UI Engineer and knowing my way of working will help you in evaluating whether to hire me.  
+			 </p>	 
 		    </div>
 		    
 		   </article>
@@ -493,7 +490,6 @@
 		
 	   <div class="flexFooter-container">
 	    
-	    
 	    <div class="flexFooter-item">
 		 <div class="footer-title">Menu</div>
 		  <ul>
@@ -506,7 +502,6 @@
 		  </ul>
 	    </div>
 
-
 	    <div class="flexFooter-item">
 		 <div class="footer-title">Connect</div>	
 		  <a href="https://github.com/drewgoff"><img src="images/social-media/github.svg" class="social-icon" alt="github" width="40" height="40"></a> 
@@ -515,7 +510,6 @@
 		  <a href="https://www.instagram.com/drew.goff.81/"><img src="images/social-media/instagram.svg" class="social-icon" alt="instagram" width="40" height="40"></a>
 		  <a href="https://www.facebook.com/drew.goff.33"><img src="images/social-media/facebook.svg" class="social-icon" alt="facebook" width="40" height="40"></a>
 	    </div> 	    
-	    
 	    
 	    <div class="flexFooter-item">
 		 <div class="footer-title">Latest Lab Experiment</div>
@@ -526,7 +520,6 @@
 		 </div>
 		 <p>Music Single Component</p>
 	    </div>
-	
 	
 	    <div class="flexFooter-item">
 		 <div class="footer-title">About this Website</div>
@@ -539,17 +532,14 @@
 		  <p>Copyright ©2020 Drew Goff</p>
 	     </div>      
 	   
-	    
 	   </div><!--flexFooter-container-->
 		
 	  </section>
 	 </footer>
 
-
 	 <!-- JavaScript
 	 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	 <script src="js/dg-action.js"></script>
 
-	 
 	</body>
 </html>

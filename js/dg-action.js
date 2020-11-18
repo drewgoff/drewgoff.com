@@ -1,5 +1,13 @@
+// Stopping transition animation until page loads
+(() => {
+ document.addEventListener("DOMContentLoaded", () => {
+   const node = document.querySelector('.preload-transitions');
+   node.classList.remove('preload-transitions');
+});
+})();
+
 // Mobile Menu
-(function() {
+(() => {
  function mobileMenu() {
    document.getElementById("dropDownMenu").classList.toggle("activeMenu");
  }
@@ -12,23 +20,25 @@
   toggleBtn(this);
   mobileMenu();
  });
-}) ();
-
+})();
 
 // Modal Window
-var modalBtns = Array.from(document.querySelectorAll(".otherPages"));
-modalBtns.forEach(function(btn){
+(() => {
+const modalBtns = Array.from(document.querySelectorAll(".otherPages"));
+modalBtns.forEach(btn => {
   btn.onclick = function() {
-    var modal = btn.getAttribute('data-modal');
+    const modal = btn.getAttribute('data-modal');
     document.getElementById(modal).style.display = "block";
+    document.querySelector("body").style.overflow = 'hidden';
   }
 });
 
-var closeBtns = Array.from(document.querySelectorAll(".close-button"));
-closeBtns.forEach(function(btn){
+const closeBtns = Array.from(document.querySelectorAll(".close-button"));
+closeBtns.forEach(btn => {
   btn.onclick = function() {
-    var modal = btn.closest('.modal');
+    let modal = btn.closest('.modal');
     modal.style.display = "none";
+    document.querySelector("body").style.overflow = 'visible';
   }
 });
 
@@ -37,3 +47,4 @@ window.onclick = function(event) {
     event.target.style.display = "none";
   }
 }
+})();

@@ -7,8 +7,8 @@
 	   <meta charset="UTF-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	   <meta name="description" content="The resume page of UX/UI Designer Drew Goff">
-	   <meta name="keywords" content="UX/UI Designer, ux/ui designer, Drew Goff, drew goff, Indianapolis, Westfield">
+	   <meta name="description" content="The resume page of UX/UI Developer Drew Goff">
+	   <meta name="keywords" content="UX/UI Developer, ux/ui developer, Drew Goff, drew goff, Indianapolis, Westfield, Peoria, Washington DC">
 	   <meta name="author" content="Drew Goff">
 	   <meta name="msapplication-TileColor" content="#ea2e6d">
 	   <meta name="theme-color" content="#252526">
@@ -41,23 +41,29 @@
 	   	   	   
 	</head>
 
-	<body>
-	 
+	<body class="preload-transitions">
+	 	 
 	 <header>     
 	  <section>
 	      
-	   <div class="desktop-nav-container">
-	  
-	    <div class="desktop-nav-item">
+	   <nav class="desktop-nav-container">
+	 
+	    <!--==============================
+	       Logo for desktop and mobile 
+	    ===============================--> 
+	    <div aria-label="Where the logo and title is" class="desktop-nav-item">
 	     <a href="index.html">
 	      <div id="logo">
 		   <div id="name">DREW GOFF</div> 
-		   <div id="title">UX<span class="highlight">/</span>UI Designer</div>
-	      </div><!--logo-->
+		   <div id="title">UX<span class="highlight">/</span>UI Developer</div>
+	      </div> 
 	     </a>
-	    </div><!--desktop-nav-item-->
+	    </div>
 	  
-	    <div class="desktop-nav-item">
+     	<!--==============================
+	         Desktop navigation menu 
+	    ===============================-->
+	    <div aria-label="Desktop navigation menu" class="desktop-nav-item">
 	     <div class="desktop-nav">
 		  <ul> 
 		   <li><a class="top-nav" href="index.html">Portfolio</a></li>
@@ -69,34 +75,33 @@
 		  </ul>
 	     </div>
 	    </div>
-
-	  <!-- Toggle Navigation (Mobile only)
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
-	   <div class="mobile-nav">
-		<div id="toggle">
+  
+     	<!--==============================
+	      Mobile navigation menu toggle
+	    ===============================-->
+	    <div aria-label="Mobile navigation menu toggle" class="mobile-nav">
+		 <div id="toggle">
 		  <div class="bar1"></div>
 		  <div class="bar2"></div>
 		  <div class="bar3"></div>
 		  <div class="ham-title">Menu</div>
-		</div>
-	   </div><!--mobile-nav-->
+		 </div>
+	    </div>
 	   
-	  </div><!--desktop-nav-container--> 
+	   </nav>
 
-	 </section>
-	</header>
-	 
-	<main role="main" aria-label="when the content begins">
-
-	  <!-- Mobile Navigation 
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->    	
-	  <div id="dropDownMenu" class="hiddenMenu">   
-	   	   
+	  </section>
+	 </header>
+   	
+      <!--==============================
+	    Mobile navigation menu tiles
+	  ===============================-->
+	  <nav aria-label="mobile navigation menu titles" class="hiddenMenu" id="dropDownMenu" >   	   
 	   <div class="mobile-flex-container">
 
 		<a class="mobile-flex-item" href="index.html">	 
 		 <img src="images/icons/portfolio-icon.svg" class="img-responsive-centered" alt="suitcase" width="85" height="70">
-		 <p class="white-link">Portfolio</p>
+		 <p class="active-link">Portfolio</p>
 		</a>
 	
 		<a class="mobile-flex-item" href="about.html">	
@@ -116,8 +121,8 @@
 		
 		<a class="mobile-flex-item" href="resume.html">	 
 		 <img src="images/icons/resume-icon.svg" class="img-responsive-centered"  alt="resume-icon" width="85" height="70">		 
-		 <p class="active-link">Resume</p>
-		</a>	
+		 <p class="white-link">Resume</p>
+		</a>		
 
 		<a class="mobile-flex-item" href="contact.html">	 
 		 <img src="images/icons/contact-icon.svg" class="img-responsive-centered" alt="contact-icon" width="85" height="70">
@@ -125,7 +130,10 @@
 		</a>	
 	
 	   </div>
-	  </div>
+	  </nav>
+	 
+	
+	 <main aria-label="When the content begins">
  
   	 	   
 	  <section>
@@ -162,7 +170,7 @@
 			 <li class="skills">HTML</li>
 			 <li class="skills">CSS</li>
 			 <li class="skills">JavaScript</li>
-			 <li class="skills">SVG</li>
+			 <li class="skills">Angular</li>
 			 <li class="skills">React</li>
 			</ul>
 	
@@ -217,7 +225,7 @@
 
 		   <div class="inner-resume-container">	  
 		 		  
-		    <a href="http://drewgoff.com/files/UXUI-Designer__Resume-2020.pdf"> 
+		    <a href="http://drewgoff.com/files/UXUI-Developer__Resume-2021.pdf"> 
 		     <div class="inner-resume-item">
 			  <img src="images/icons/pdf-icon.svg" class="img-responsive-centered" alt="pdf-icon" width="104" height="140" >
 		       <br />
