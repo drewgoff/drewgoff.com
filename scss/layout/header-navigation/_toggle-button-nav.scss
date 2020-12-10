@@ -1,3 +1,5 @@
+@use "../../variables";
+
 /* ===========================
   Mobile: Toggle Section
 ============================*/
@@ -8,12 +10,7 @@
 }
 
 .bar1 {
-  
-  //-- Private variables --//
-  $light-pink:	 	#ff4d79;
-  //----------------------//
-  
-  background: $light-pink;  
+  background: variables.$light-pink;  
   height: 3px; 
   margin: 8px 0;  
   transition: 0.3s;  
@@ -21,12 +18,7 @@
 }
 
 .bar2 {
-
-  //-- Private variables --//
-  $medium-pink:		#ff3366;
-  //----------------------//
-
-  background: $medium-pink;
+  background: variables.$medium-pink;
   height: 3px;
   margin: 8px 0;  
   transition: 0.3s;  
@@ -34,12 +26,7 @@
 }
 
 .bar3 {
-
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  //----------------------//
-
-  background: $dark-pink;	
+  background: variables.$dark-pink;	
   height: 3px;
   margin: 8px 0;
   transition: 0.3s;
@@ -47,32 +34,19 @@
 }
 
 .ham-title {
-
-  //-- Private variables --//
-  $white:   		#f2f2f2;
-  $body-font:		'Nunito', sans-serif;
-  $regular-font-weight: 300; 
-  //----------------------//
-
-  color: $white;	
-  font-family: $body-font;
+  color: variables.$white;	
+  font-family: variables.$body-font;
   font-size: 1.35rem;
-  font-weight: $regular-font-weight;
+  font-weight: variables.$regular-font-weight;
   letter-spacing: 1px;
   margin-top: -5px;      
 }
 
 .change .bar1 {
-  
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  $white-grey:	 	#c5c5c5;
-  //----------------------//
-  
-  background: $dark-pink;
-  background: -moz-linear-gradient(left, $dark-pink 20%, $white-grey 80%);
-  background: -webkit-linear-gradient(left, $dark-pink 20%, $white-grey 80%);
-  background: linear-gradient(to right, $dark-pink 20%, $white-grey 80%);
+  background: variables.$dark-pink;
+  background: -moz-linear-gradient(left, variables.$dark-pink 20%, variables.$white-grey 80%);
+  background: -webkit-linear-gradient(left, variables.$dark-pink 20%, variables.$white-grey 80%);
+  background: linear-gradient(to right, variables.$dark-pink 20%, variables.$white-grey 80%);
   transform: rotate(-45deg) translate(-9px, 6px);
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   width: 35px;
@@ -81,16 +55,10 @@
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-
-  //-- Private variables --//
-  $white-grey:	 	#c5c5c5;
-  $dark-pink: 		#ff006b;
-  //----------------------//
-
-  background: $white-grey;
-  background: -moz-linear-gradient(left, $white-grey 20%, $dark-pink 80%);
-  background: -webkit-linear-gradient(left, $white-grey 20%, $dark-pink 80%);
-  background: linear-gradient(to right, $white-grey 20%, $dark-pink 80%);
+  background: variables.$white-grey;
+  background: -moz-linear-gradient(left, variables.$white-grey 20%, variables.$dark-pink 80%);
+  background: -webkit-linear-gradient(left, variables.$white-grey 20%, variables.$dark-pink 80%);
+  background: linear-gradient(to right, variables.$white-grey 20%, variables.$dark-pink 80%);
   transform: rotate(45deg) translate(-8px, -8px);
   -webkit-transform: rotate(45deg) translate(-8px, -8px);   
 }

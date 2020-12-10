@@ -1,8 +1,4 @@
-//-- Private variables --//
-$white-grey:	 	#c5c5c5;
-$body-font:		   	'Nunito', sans-serif;
-$regular-font-weight: 300; 
-//----------------------// 
+@use "../../variables";
 
 .music-bg {
   background-image: url(../images/music-singles/music-bg.jpg);
@@ -79,10 +75,10 @@ $regular-font-weight: 300;
 li.tracks { display: block; }
 
 .centered-title {
-  border-bottom: 0.5px solid $white-grey;  
-  font-family: $body-font;
+  border-bottom: 0.5px solid variables.$white-grey;  
+  font-family: variables.$body-font;
   font-size: 3rem;
-  font-weight: $regular-font-weight;
+  font-weight: variables.$regular-font-weight;
   letter-spacing: 2px;
   margin: 0 auto;  
   padding: 0 10px 0 10px;

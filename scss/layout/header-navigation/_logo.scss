@@ -1,31 +1,21 @@
+@use "../../variables";
+
 #logo {
   height: 80px;
   margin-top: 1.3rem;
   margin-left: 0.3em;
   width: 200px; }
 
-#name {
-  
-  //-- Private variables --//
-  $white:   		#f2f2f2;
-  $title-font:	   	'Anton', sans-serif;
-  //----------------------//
-  
-  color: $white;
-  font-family: $title-font;
+#name {  
+  color: variables.$white;
+  font-family: variables.$title-font;
   font-size: 1.6em;
   letter-spacing: 1px;
   text-align: left; }
 
 #title {
-  
-  //-- Private variables --//
-  $white-grey:	    #c5c5c5;
-  $body-font:	    'Nunito', sans-serif;
-  //----------------------//
-  
-  color: $white-grey;
-  font-family: $body-font;
+  color: variables.$white-grey;
+  font-family: variables.$body-font;
   font-size: .720em;
   font-weight: 300;
   letter-spacing: 2px;
@@ -34,12 +24,8 @@
   text-align: left;
  }
 
-.highlight { 
-  //-- Private variables --//
-  $medium-pink:		#ff3366;
-  //----------------------//
-  
-  color: $medium-pink; 
+.highlight {   
+  color: variables.$medium-pink; 
   font-size: 1.3rem; 
 }
 

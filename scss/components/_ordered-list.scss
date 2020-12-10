@@ -1,15 +1,12 @@
+@use "../variables";
+
 ol {
   counter-reset: li;
   list-style-type: none;
 }
 
 ol li {
-
-  //-- Private variables --//
-  $white:   	#f2f2f2;
-  //----------------------//
-
-  color: $white;
+  color: variables.$white;
   display: block;
   font-size: 1.7rem;
   letter-spacing: 0.7px;
@@ -17,12 +14,7 @@ ol li {
 }
 
 ol li:before {
-
-  //-- Private variables --//
-  $dark-pink: 	#ff006b;
-  //----------------------//
-
-  color: $dark-pink;
+  color: variables.$dark-pink;
   content: counter(li, decimal-leading-zero);
   counter-increment: li;
   font-size: 3rem;
@@ -30,10 +22,5 @@ ol li:before {
 }
 
 li.black-text {
-
-  //-- Private variables --//
-  $dark-black-blue:  #252526;
-  //----------------------//
-
-  color: $dark-black-blue;
+  color: variables.$dark-black-blue;
 }

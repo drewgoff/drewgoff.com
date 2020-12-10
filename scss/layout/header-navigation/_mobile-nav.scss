@@ -1,18 +1,14 @@
+@use "../../variables";
+
 /* ===========================
   Mobile: Dropdown Section
 ============================*/
 nav.hiddenMenu {
-
-  //-- Private variables --//
-  $dark-grey-blue: 	 #313133;
-  $dark-black-blue:  #252526;
-  //----------------------//
-
-  background: $dark-grey-blue;
-  background: -moz-linear-gradient(top, $dark-grey-blue 0%, $dark-black-blue 100%);
-  background: -webkit-linear-gradient(top, $dark-grey-blue 0%, $dark-black-blue 100%);
-  background: linear-gradient(to bottom, $dark-grey-blue 0%, $dark-black-blue 100%);  
-  border-bottom: 1.5px solid $dark-grey-blue; 
+  background: variables.$dark-grey-blue;
+  background: -moz-linear-gradient(top, variables.$dark-grey-blue 0%, variables.$dark-black-blue 100%);
+  background: -webkit-linear-gradient(top, variables.$dark-grey-blue 0%, variables.$dark-black-blue 100%);
+  background: linear-gradient(to bottom, variables.$dark-grey-blue 0%, variables.$dark-black-blue 100%);  
+  border-bottom: 1.5px solid variables.$dark-grey-blue; 
   -webkit-box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
   -moz-box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
   box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4); 
@@ -26,17 +22,11 @@ nav.hiddenMenu {
 }
 
 nav.activeMenu {
-
-  //-- Private variables --//
-  $dark-grey-blue: 	 #313133;
-  $dark-black-blue:  #252526;
-  //----------------------//
-
-  background: $dark-grey-blue;
-  background: -moz-linear-gradient(top, $dark-grey-blue 0%, $dark-black-blue 100%);
-  background: -webkit-linear-gradient(top, $dark-grey-blue 0%, $dark-black-blue 100%);
-  background: linear-gradient(to bottom, $dark-grey-blue 0%, $dark-black-blue 100%); 
-  border-bottom: 1.5px solid $dark-grey-blue;  
+  background: variables.$dark-grey-blue;
+  background: -moz-linear-gradient(top, variables.$dark-grey-blue 0%, variables.$dark-black-blue 100%);
+  background: -webkit-linear-gradient(top, variables.$dark-grey-blue 0%, variables.$dark-black-blue 100%);
+  background: linear-gradient(to bottom, variables.$dark-grey-blue 0%, variables.$dark-black-blue 100%); 
+  border-bottom: 1.5px solid variables.$dark-grey-blue;  
   -webkit-box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
   -moz-box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
   box-shadow: 0px 3px 5px 0px rgba(37,37,38,0.4);
@@ -108,12 +98,7 @@ nav.activeMenu {
 }
 
 p.white-link {
-
-  //-- Private variables --//
-  $white:   	 #f2f2f2;
-  //----------------------//
-
-  color: $white;
+  color: variables.$white;
   letter-spacing: 1px;
   text-decoration: none;
   text-size: 1.1rem; 

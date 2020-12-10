@@ -1,14 +1,4 @@
-//-- Private variables --//
-$light-grey-grey:	#636367;
-$super-light-grey:	#56565a; 
-$lighter-pale-grey: #89898e;
-$light-pale-grey:   #7c7c81;
-$white:   		 	#f2f2f2;
-$title-font:	   	'Anton', sans-serif;
-$body-font:		   	'Nunito', sans-serif;
-$regular-font-weight: 300;
-$white-grey:	 	#c5c5c5;
-//----------------------//
+@use "../../variables";
 
 .lab-wrapper { width:100%; }
 
@@ -27,14 +17,14 @@ $white-grey:	 	#c5c5c5;
 }
 
 .lab-card__container {
-  background-image: linear-gradient(-180deg, $light-grey-grey 0%, $super-light-grey 100%);
+  background-image: linear-gradient(-180deg, variables.$light-grey-grey 0%, variables.$super-light-grey 100%);
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
 
 .lab-card__header {
-  color: $white;
-  font-family: $title-font;
+  color: variables.$white;
+  font-family: variables.$title-font;
   font-size: 2.2rem;
   height: 50px;
   letter-spacing: 1px;
@@ -43,7 +33,7 @@ $white-grey:	 	#c5c5c5;
 }
 
 .lab-card__photo {
-  background-image: linear-gradient(0deg, $light-pale-grey 0%, $lighter-pale-grey 100%);
+  background-image: linear-gradient(0deg, variables.$light-pale-grey 0%, variables.$lighter-pale-grey 100%);
   box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
   height: auto;
   padding: 2rem 1rem 1rem 1rem;
@@ -52,9 +42,9 @@ $white-grey:	 	#c5c5c5;
 .lab-card__footer {
   align-items: center;	
   display: flex;
-  font-family: $body-font;
+  font-family: variables.$body-font;
   font-size: 1.6rem;
-  font-weight: $regular-font-weight;
+  font-weight: variables.$regular-font-weight;
   height: 70px;
   letter-spacing: 1px;
 }
@@ -65,5 +55,5 @@ $white-grey:	 	#c5c5c5;
 }
 
 .lab-card__footer > div:nth-child(1) {
-  border-right: 1px solid $white-grey;
+  border-right: 1px solid variables.$white-grey;
 }

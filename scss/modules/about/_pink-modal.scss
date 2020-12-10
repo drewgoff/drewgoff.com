@@ -1,11 +1,4 @@
-//-- Private variables --//
-$title-font:	   	'Anton', sans-serif;
-$bold-font-weight: 	400;
-$dark-grey-blue: 	#313133;
-$super-white:		#ffffff;
-$dark-black-blue: 	#252526;
-//----------------------//
-
+@use "../../variables";
 
 /* =====================
 	Q & A Modal Window
@@ -26,9 +19,9 @@ $dark-black-blue: 	#252526;
 }
 
 .modal-header-question {
-  font-family: $title-font;
+  font-family: variables.$title-font;
   font-size: 2.2rem;
-  font-weight: $bold-font-weight;
+  font-weight: variables.$bold-font-weight;
   letter-spacing: 0.8px;	
   padding: 10px 0 0 15px;
 }
@@ -65,7 +58,7 @@ $dark-black-blue: 	#252526;
 
 /* Modal Header -- Exit area */
 #trapezoid {
-  border-bottom: 100px solid $dark-grey-blue;
+  border-bottom: 100px solid variables.$dark-grey-blue;
   border-left: 25px solid transparent;
   height: 0;
   position: absolute; 
@@ -78,8 +71,8 @@ $dark-black-blue: 	#252526;
 .exit-container:hover { cursor: pointer; opacity: 0.7; }
 
 .exit-title {
-  font-family: $title-font;
-  font-weight: $bold-font-weight;
+  font-family: variables.$title-font;
+  font-weight: variables.$bold-font-weight;
   letter-spacing: 0.8px;
   margin-top: -6px;
 }
@@ -95,9 +88,9 @@ $dark-black-blue: 	#252526;
 }
 
 .pink-modal-body-two {
-  background-color: $super-white;
+  background-color: variables.$super-white;
   border-radius: 1px;
-  color: $dark-black-blue;
+  color: variables.$dark-black-blue;
   font-size: 17px;
   height: auto;
   letter-spacing: 1.05px;

@@ -1,14 +1,4 @@
-//-- Private variables --//
-$light-grey-grey:	  #636367;
-$light-pink:	 	  #ff4d79;
-$medium-pink:		  #ff3366;
-$dark-black-blue: 	  #252526;
-$title-font:	   	  'Anton', sans-serif;
-$bold-font-weight: 	  400;
-$super-white:		  #ffffff;
-$body-font:		   	  'Nunito', sans-serif;
-$medium-font-weight:  400; 
-//----------------------//
+@use "../../variables";
 
 /* =====================
 	Emerge Component
@@ -22,7 +12,7 @@ $medium-font-weight:  400;
 }
 
 .emerge__extrude {
-  background: $light-grey-grey;
+  background: variables.$light-grey-grey;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   height: auto;
   padding-bottom: 20px;
@@ -30,13 +20,13 @@ $medium-font-weight:  400;
 }
 
 .emerge__pink-top {
-  background-color: $light-pink;
+  background-color: variables.$light-pink;
   height: 15px;
   width: 100%;	
 }
 
 .emerge__pink-bottom {
-  background-color: $medium-pink;
+  background-color: variables.$medium-pink;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   height: 15px;
   width: 100%;	
@@ -79,19 +69,19 @@ $medium-font-weight:  400;
 }
 
 .emerge__book-titles { 
-  color: $dark-black-blue;
-  font-family: $title-font;
+  color: variables.$dark-black-blue;
+  font-family: variables.$title-font;
   font-size: 1.7rem;
-  font-weight: $bold-font-weight;
+  font-weight: variables.$bold-font-weight;
   letter-spacing: 0.50px;
   width: calc(20% - 4px);	
 }
 
 .emerge__book-info   { 
-  color: $super-white;
-  font-family: $body-font;
+  color: variables.$super-white;
+  font-family: variables.$body-font;
   font-size: 1.7rem;
-  font-weight: $medium-font-weight;
+  font-weight: variables.$medium-font-weight;
   letter-spacing: 0.50px;
   width: calc(80% - 4px);	
 }

@@ -1,21 +1,14 @@
+@use "../variables";
+
 .code-btn, .modal-btn, .submit-btn {
-
-  //-- Private variables --//
-  $bright-pink:  	 #f65ba6;
-  $dark-pink: 		 #ff006b;
-  $white:   		 #f2f2f2;
-  $title-font:	   	 'Anton', sans-serif;
-  $bold-font-weight: 400;
-  //----------------------//
-
-  background-image: linear-gradient(180deg, $bright-pink 0%, $dark-pink 100%);
+  background-image: linear-gradient(180deg, variables.$bright-pink 0%, variables.$dark-pink 100%);
   border: 0 solid transparent;
   border-radius: 4px;	
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-  color: $white;
+  color: variables.$white;
   display: inline-block;
-  font-family: $title-font;
-  font-weight: $bold-font-weight;
+  font-family: variables.$title-font;
+  font-weight: variables.$bold-font-weight;
   letter-spacing: 1.21px;	    
   text-align: center;
   text-decoration: none;    
@@ -30,15 +23,8 @@
 .code-btn:hover, .code-btn:focus, .code-btn:active,
 .modal-btn:hover, .modal-btn:focus, .modal-btn:active, 
 .submit-btn:hover, .submit-btn:focus, .submit-btn:active {
-
-  //-- Private variables --//
-  $medium-pink:		#ff3366;
-  $light-pink:	 	#ff4d79;
-  $super-white:		#ffffff;
-  //----------------------//
-
-  background-image: linear-gradient(0deg, $medium-pink 0%, $light-pink 100%);
-  color: $super-white;
+  background-image: linear-gradient(0deg, variables.$medium-pink 0%, variables.$light-pink 100%);
+  color: variables.$super-white;
   cursor: pointer;
   text-decoration: none;
 }

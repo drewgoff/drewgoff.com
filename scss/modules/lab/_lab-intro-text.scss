@@ -1,7 +1,4 @@
-//-- Private variables --//
-$body-font:  'Nunito', sans-serif;
-$regular-font-weight: 300;  
-//----------------------//
+@use "../../variables";
 
 .aligner {
   align-items: center;
@@ -15,9 +12,9 @@ $regular-font-weight: 300;
 }
 
 p.lab-intro-text {
-  font-family: $body-font;
+  font-family: variables.$body-font;
   font-size: 1.5rem;
-  font-weight: $regular-font-weight;
+  font-weight: variables.$regular-font-weight;
 }
 
 @media screen and (max-width:400px) {
@@ -30,8 +27,8 @@ p.lab-intro-text {
   width: 70%;
  }
  p.lab-intro-text {
-  font-family: $body-font;
+  font-family: variables.$body-font;
   font-size: 1.3rem;
-  font-weight: $regular-font-weight;
+  font-weight: variables.$regular-font-weight;
  }
 }

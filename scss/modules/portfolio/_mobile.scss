@@ -1,12 +1,7 @@
-//-- Private variables --//
-$dark-pink: 	   #ff006b;
-$dark-black-blue:  #252526;
-$body-font:		   'Nunito', sans-serif;
-$regular-font-weight: 300;
-//----------------------// 
+@use "../../variables";
 
 .full-column {
-  background-color: #fff;
+  background-color: variables.$super-white;
   border-radius: 8px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
@@ -28,13 +23,13 @@ $regular-font-weight: 300;
 }
 
 
-.emphasis { color: $dark-pink; font-size: 5rem;	}
+.emphasis { color: variables.$dark-pink; font-size: 5rem;	}
 
 p.onemain-ani-title {
-  color: $dark-black-blue; 
-  font-family: $body-font;
+  color: variables.$dark-black-blue; 
+  font-family: variables.$body-font;
   font-size: 3rem;
-  font-weight: $regular-font-weight;
+  font-weight: variables.$regular-font-weight;
   letter-spacing: 3px;
   line-height: 0.9;  
   padding-top: 13px;

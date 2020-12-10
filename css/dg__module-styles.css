@@ -986,72 +986,221 @@ li.black-text {
   margin-top: 30px;
 }
 
-#contact input[type=text],
-#contact input[type=email],
-#contact input[type=tel],
-#contact input[type=url],
-#contact textarea {
-  font: 400 1.8rem/23px "Nunito", sans-serif, sans-serif;
+/*=============================
+  Business Card containers 
+===============================*/
+.inner-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 10%;
 }
 
-#contact {
-  background-image: linear-gradient(-180deg, #636367 0%, #56565a 100%);
-  border-radius: 4px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  margin: 0 0 20px 0;
-  padding: 20px;
+.bizzy-card-container {
+  min-width: 200px;
+  max-width: 450px;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-wrap: wrap;
 }
 
-fieldset {
-  border: medium none;
-  padding: 0;
-  margin: 0 0 10px;
-  min-width: 100%;
-  width: 100%;
-}
-
-#contact input[type=text],
-#contact input[type=email],
-#contact input[type=tel],
-#contact input[type=url],
-#contact textarea {
-  background: #4a4a4d;
-  border: 1px solid #7c7c81;
-  color: #f2f2f2;
-  margin: 0 0 5px;
+/*=============================
+     Left Content
+===============================*/
+.biz-card-a {
+  width: 160px;
+  height: 220px;
+  background-color: #f2f2f2;
+  float: left;
   padding: 10px;
+  transition: 0.1s ease;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.biz-headshot {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  background-size: 132px;
+  background-repeat: no-repeat;
+  background-position: 50% 6%;
+  border: 1px solid #d8d8d8;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.biz-pic-drew {
+  background-image: url("https://drewgoff.com/images/business-card/drew-biz.jpg");
+}
+
+.biz-words-container {
+  margin-top: 122px;
+}
+
+.biz-name {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  color: #252526;
+  font-size: 2.3rem;
+}
+
+.biz-title {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: #252526;
+  font-size: 1.1rem;
+  max-width: 100px;
+  margin-left: 10px;
+  margin-top: -7px;
+}
+
+/*=============================
+     Right Content
+===============================*/
+.biz-card-b {
+  width: 230px;
+  height: 220px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  transition: 0.1s ease;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.biz-shape {
+  float: right;
+  background: #ff4d79;
+  background: -webkit-linear-gradient(-45deg, #ff4d79 0%, #ea2e6d 100%);
+  background: -ms-linear-gradient(-45deg, #ff4d79 0%, #ea2e6d 100%);
+  background: linear-gradient(135deg, #ff4d79 0%, #ea2e6d 100%);
+  transform: scaleX(1) rotate(50deg);
+  top: 0;
+  bottom: 0;
+  height: 308px;
+  margin: -25px -55px 0 0;
+  border-radius: 50px;
   width: 100%;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
+.biz-contact-box {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 1px;
+  width: 210px;
+  transform: scaleX(1) rotate(-50deg);
 }
 
-#contact input:focus,
-#contact textarea:focus {
-  border: 1px solid #ff3366;
-  outline: 0;
+.biz-email:before,
+.biz-cell:before,
+.biz-portfolio:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: -3px 9px 0 0;
 }
 
-::-webkit-input-placeholder {
-  color: #f2f2f2;
-  padding-top: 4px;
+.biz-email:before {
+  background: url("https://drewgoff.com/images/business-card/email.svg") no-repeat;
 }
 
-:-moz-placeholder {
-  color: #f2f2f2;
+.biz-cell:before {
+  background: url("https://drewgoff.com/images/business-card/cellphone.svg") no-repeat;
 }
 
-::-moz-placeholder {
-  color: #f2f2f2;
+.biz-portfolio:before {
+  background: url("https://drewgoff.com/images/business-card/suitcase.svg") no-repeat;
 }
 
-:-ms-input-placeholder {
-  color: #f2f2f2;
+.biz-email, .biz-email a:link,
+.biz-cell, .biz-cell a:link {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 14px;
+  margin-left: 1px;
+  cursor: pointer;
+  padding-top: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
 }
 
+/*=============================
+   Business Card Mobile
+===============================*/
+@media screen and (max-width: 660px) {
+  .inner-card-container {
+    margin-top: 5%;
+  }
+
+  .biz-email:before, .biz-cell:before,
+.biz-portfolio:before {
+    margin: -4px 2px 0 0;
+  }
+
+  .biz-email, .biz-email a:link,
+.biz-cell, .biz-cell a:link,
+.biz-portfolio, .biz-portfolio a:link {
+    margin-bottom: 6px;
+    margin-left: 15px;
+    padding-top: 5px;
+  }
+
+  .biz-card-a, .biz-card-b {
+    margin-left: 20%;
+  }
+
+  .biz-card-a {
+    width: 240px;
+    height: 195px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 0;
+  }
+
+  .biz-headshot {
+    margin-top: 6px;
+  }
+
+  .biz-card-b {
+    width: 240px;
+    height: 190px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 0;
+  }
+
+  .biz-shape {
+    transform: scaleX(1) rotate(77deg);
+    margin: -13px -60px 0 0;
+  }
+
+  .biz-contact-box {
+    transform: scaleX(1) rotate(-77deg);
+  }
+
+  .biz-contact-box {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -20px;
+    width: 210px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .biz-card-a, .biz-card-b {
+    margin-left: 11%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .biz-card-a, .biz-card-b {
+    margin-left: 5%;
+  }
+}
 /*============================
   PathCard flexbox Container
 ============================*/
@@ -2384,7 +2533,8 @@ li.tracks {
 .skills-item:nth-child(1),
 .skills-item:nth-child(2),
 .skills-item:nth-child(3),
-.skills-item:nth-child(4) {
+.skills-item:nth-child(4),
+.skills-item:nth-child(5) {
   align-self: auto;
   background-image: linear-gradient(-180deg, #636367 0%, #56565a 100%);
   border-radius: 4px;
@@ -2437,7 +2587,7 @@ li.skills {
 }
 
 .full-column {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }

@@ -1,10 +1,7 @@
+@use "../../variables";
+
 .latest-lab { 
-
-  //-- Private variables --//
-  $light-pale-grey:   #7c7c81;
-  //----------------------//
-
-  background-color: $light-pale-grey; 
+  background-color: variables.$light-pale-grey; 
   height: 155px; 
   max-width: 275px; 
 }

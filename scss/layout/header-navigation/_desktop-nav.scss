@@ -1,3 +1,5 @@
+@use "../../variables";
+
 /* ============================
  Desktop: Navigation Section
 =============================*/		
@@ -29,38 +31,27 @@
 }
 
 .top-nav {
-
-  //-- Private variables --//
-  $white-grey:	    #c5c5c5;
-  $title-font:	   	'Anton', sans-serif;
-  //----------------------//
-
-  color: $white-grey;
-  font-family: $title-font;
+  color: variables.$white-grey;
+  font-family: variables.$title-font;
   font-size: 1.75rem;
   letter-spacing: 1px;
   padding-left: 40px;
   transition: 0.3s; 
 }
 
-.top-nav:hover {
-  
-  //-- Private variables --//
-  $white:   		#f2f2f2;
-  //----------------------//
-	
-  color: $white;
+.top-nav:hover {	
+  color: variables.$white;
   cursor: pointer; 
 }
 
-.active-link { $dark-pink:  #ff006b; color: $dark-pink; }		
-.active-link:hover { $dark-pink:  #ff006b; color: $dark-pink; }		
+.active-link { color: variables.$dark-pink; }		
+.active-link:hover { color: variables.$dark-pink; }		
 .mobile-nav { display: none; }
 
 @media only screen and (max-width: 900px) {
  .desktop-nav { margin-top: 1.6em; }
  .top-nav { font-size: 1.6rem; padding-left: 30px;  } 
- .active-link { $dark-pink:  #ff006b; color: $dark-pink; }
+ .active-link { color: variables.$dark-pink; }
 }	   
 
 @media only screen and (max-width: 767px) {

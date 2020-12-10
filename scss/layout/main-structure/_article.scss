@@ -1,10 +1,7 @@
+@use "../../variables";
+
 article {
-
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  //----------------------//
-
-  border-bottom: 1px solid $dark-pink;
+  border-bottom: 1px solid variables.$dark-pink;
   display: flex; 
   flex-basis: auto;   
   flex-grow: 1;
@@ -15,13 +12,8 @@ article {
   padding: 30px 0 30px 0;
 }
 
-.no-underline { 
-  
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  //----------------------// 
-  
-  border-bottom: 0 solid $dark-pink; 
+.no-underline {   
+  border-bottom: 0 solid variables.$dark-pink; 
 }
 
 .title-area { padding: 10px; width: 34%; }

@@ -1,13 +1,7 @@
-//-- Private variables --//
-$light-grey-grey:	#636367;
-$super-light-grey:	#56565a;
-$white:   		 	#f2f2f2;
-$dark-pink: 		#ff006b;
-$light-pale-grey:   #7c7c81;
-//----------------------// 
+@use "../../variables";
 
 .resume-download-container {
-  background-image: linear-gradient(-180deg, $light-grey-grey 0%, $super-light-grey 100%);	
+  background-image: linear-gradient(-180deg, variables.$light-grey-grey 0%, variables.$super-light-grey 100%);	
   border-radius: 4px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);	
   margin: 1rem auto 1rem auto;
@@ -25,12 +19,12 @@ $light-pale-grey:   #7c7c81;
 .inner-resume-item:nth-child(1),
 .inner-resume-item:nth-child(2) {
   align-self: auto;
-  border: 1px solid $light-pale-grey;
-  color: $white;
+  border: 1px solid variables.$light-pale-grey;
+  color: variables.$white;
   flex: 0 1 auto;
   margin: 10px;
   padding: 10px;
   text-align: center;
 }
 
-.inner-resume-item:hover { border: 1px solid $dark-pink; }
+.inner-resume-item:hover { border: 1px solid variables.$dark-pink; }

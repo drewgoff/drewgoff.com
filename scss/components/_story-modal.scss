@@ -1,13 +1,4 @@
-//======================
-//   Sass Variables
-//======================
-$title-font:	      'Anton', sans-serif;
-$bold-font-weight: 	400;
-$dark-grey-blue: 	  #313133;
-$white:   		 	    #f2f2f2;
-$super-white:		    #ffffff;
-$dark-black-blue: 	#252526;
-
+@use "../variables";
 
 /*--=--=--=--=--=--=--=--=--=--=--=
 ---=---=---=---=---=---=---=---=---
@@ -51,9 +42,9 @@ $dark-black-blue: 	#252526;
 /*  Story Modal header title
 ––––––––––––––––––––––––––––––––––––––-–––––- */
 .storyModal-title {
-  color: $super-white;
-  font-family: $title-font;
-  font-weight: $bold-font-weight;	
+  color: variables.$super-white;
+  font-family: variables.$title-font;
+  font-weight: variables.$bold-font-weight;	
   font-size: 30px;
   letter-spacing: 1.61px;
   line-height: 1.2;
@@ -67,7 +58,7 @@ $dark-black-blue: 	#252526;
 /*  Story Modal header exit area
 ––––––––––––––––––––––––––––––––––––––-–––––- */
 .exit-shape__container {
-  border-bottom: 90px solid $dark-grey-blue;
+  border-bottom: 90px solid variables.$dark-grey-blue;
   border-left: 25px solid transparent;
   height: 0;
   position: absolute; 
@@ -81,8 +72,8 @@ $dark-black-blue: 	#252526;
 .exit-icon__container:hover { cursor: pointer; opacity: 0.7; }
 
 .exit-icon__title {
-  font-family: $title-font;
-  font-weight: $bold-font-weight;
+  font-family: variables.$title-font;
+  font-weight: variables.$bold-font-weight;
   letter-spacing: 1px;
   margin-top: -6px;
 }
@@ -107,7 +98,7 @@ $dark-black-blue: 	#252526;
 
 .storyModal-content {
   display: flex; 
-  background-color: $super-white;
+  background-color: variables.$super-white;
   border-radius: 1px;
   margin: 0 10px 0 10px;	
   transition: 0.3s ease-in-out;
@@ -235,13 +226,13 @@ and (orientation: portrait) {
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.4;
-  color: $dark-black-blue;
+  color: variables.$dark-black-blue;
 }
 
 @media only screen and (max-width: 768px) { .css-columns  { column-count: 2; }}
 @media only screen and (max-width: 450px) { .css-columns  { column-count: 1; }}
 
 p.storyModal-words {
-  color: $dark-black-blue;
+  color: variables.$dark-black-blue;
   max-width: 650px;
 }

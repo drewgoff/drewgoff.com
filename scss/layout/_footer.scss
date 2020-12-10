@@ -1,10 +1,7 @@
+@use "../variables";
+
 footer {
-
-  //-- Private variables --//
-  $dark-black-blue: 	#252526;
-  //----------------------//
-
-  background-color: $dark-black-blue; 	
+  background-color: variables.$dark-black-blue; 	
   flex-shrink: 0;
   margin-top: 4rem;
   padding-bottom: 1rem;

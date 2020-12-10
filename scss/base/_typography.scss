@@ -1,14 +1,9 @@
-h1, h2, h3, h4, h5, h6 { 
-  
-  //-- Private variables --//
-  $white:   		  #f2f2f2;
-  $title-font:	   	  'Anton', sans-serif;
-  $bold-font-weight:  400;
-  //----------------------//
-  
-  color: $white;
-  font-family: $title-font; 
-  font-weight: $bold-font-weight; 
+@use "../variables";
+
+h1, h2, h3, h4, h5, h6 {   
+  color: variables.$white;
+  font-family: variables.$title-font; 
+  font-weight: variables.$bold-font-weight; 
   letter-spacing: 2.77px; 
   line-height: 1.25;
   margin: 4px 0 4px 0;
@@ -16,15 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.accent, h2.accent, h3.accent, 
 h4.accent, h5.accent, h6.accent,
-h2.accent-story { 
-
-  //-- Private variables --//
-  $white:   		 #f2f2f2;
-  $body-font:		 'Nunito', sans-serif;
-  //----------------------//
-  	
-  color: $white;
-  font-family: $body-font; 
+h2.accent-story {   	
+  color: variables.$white;
+  font-family: variables.$body-font; 
   font-weight: 300; 
   letter-spacing: 1px; 
   line-height: 1;
@@ -49,33 +38,18 @@ h2.accent {
 
 h2.accent-story { font-size: 3.5rem; color: #252526; margin-bottom: 1.5rem; }
 
-h1::first-letter { 
-  
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  //----------------------//
-  
-  color: $dark-pink; 
+h1::first-letter {   
+  color: variables.$dark-pink; 
   font-size: 5rem; 
 }
 
-h2.accent::first-letter { 
-  
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  //----------------------//
-  
-  color: $dark-pink; 
+h2.accent::first-letter {   
+  color: variables.$dark-pink; 
   font-size: 5rem; 
  }
  
- h2.accent-story::first-letter { 
-  
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  //----------------------//
-  
-  color: $dark-pink; 
+ h2.accent-story::first-letter {   
+  color: variables.$dark-pink; 
   font-size: 5rem; 
  }
 
@@ -91,28 +65,17 @@ h2.accent::first-letter {
 
 .centered { margin-top: 25px; text-align: center; }
 
-strong {
-  
-  //-- Private variables --//
-  $dark-pink: 		#ff006b;
-  $title-font:	   	'Anton', sans-serif;
-  //----------------------//
-  
-  color: $dark-pink;
+strong {  
+  color: variables.$dark-pink;
   display: inline-block;
-  font-family: $title-font;
+  font-family: variables.$title-font;
   font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
-p {
-  
-  //-- Private variables --//
-  $white:   	  #f2f2f2;
-  //----------------------//
-  
-  color: $white;
+p {  
+  color: variables.$white;
   display: inline-block;
   font-size: 1.6rem;
   font-weight: 300;
