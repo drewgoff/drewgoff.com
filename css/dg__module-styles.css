@@ -1499,7 +1499,7 @@ h3.polariod__title {
 ^---^---^---^---^---^---^---^---^---^---^---^ */
 .storyModal {
   padding: 13px;
-  margin: 3% auto 0 auto;
+  margin: 4% auto 0 auto;
   max-width: 1140px;
 }
 
@@ -1670,7 +1670,7 @@ h3.polariod__title {
 }
 @media only screen and (max-width: 450px) {
   .wide {
-    height: 65vh;
+    height: 67vh;
   }
 
   .wide-item:nth-child(1) {
@@ -1682,7 +1682,7 @@ h3.polariod__title {
   }
 
   .wide-item:nth-child(3) {
-    height: 40vh;
+    height: 42vh;
   }
 }
 /*  Story Modal square content
@@ -1722,34 +1722,38 @@ h3.polariod__title {
 
   .square-item:nth-child(1) {
     width: 100%;
-    height: 100vh;
+    height: 48vh;
   }
 
   .square-item:nth-child(2) {
     width: 100%;
-    height: 13px;
+    height: 1vh;
   }
 
   .square-item:nth-child(3) {
     width: 100%;
-    height: 40vh;
+    height: 26vh;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 414px) {
   .square {
-    height: 65vh;
+    flex-flow: column nowrap;
+    height: 66vh;
   }
 
   .square-item:nth-child(1) {
-    height: 100vh;
+    width: 100%;
+    height: 33vh;
   }
 
   .square-item:nth-child(2) {
-    height: 15px;
+    width: 100%;
+    height: 1vh;
   }
 
   .square-item:nth-child(3) {
-    height: 60vh;
+    width: 100%;
+    height: 32vh;
   }
 }
 /* ---^---^---^---^---^---^---^---^---^---^---^

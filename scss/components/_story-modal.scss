@@ -12,7 +12,7 @@
 ^---^---^---^---^---^---^---^---^---^---^---^ */
 .storyModal {
   padding: 13px;
-  margin: 3% auto 0 auto; 
+  margin: 4% auto 0 auto; 
   max-width: 1140px; 
 }
 
@@ -146,10 +146,10 @@ and (orientation: portrait) {
   .wide-item:nth-child(3) { height: 33vh; }
 }
 @media only screen and (max-width: 450px) {
-  .wide { height: 65vh; }
+  .wide { height: 67vh; }
   .wide-item:nth-child(1) { height: 25vh; }
   .wide-item:nth-child(2) { height: 15px; }
-  .wide-item:nth-child(3) { height: 40vh; }
+  .wide-item:nth-child(3) { height: 42vh; }
 }
 
 /*  Story Modal square content
@@ -183,16 +183,16 @@ and (orientation: portrait) {
 
 @media only screen and (max-width: 768px) {
   .square { flex-flow: column nowrap; height: 75vh; }
-  .square-item:nth-child(1) { width: 100%; height: 100vh; }
-  .square-item:nth-child(2) { width: 100%; height: 13px; }
-  .square-item:nth-child(3) { width: 100%; height: 40vh; }
+  .square-item:nth-child(1) { width: 100%; height: 48vh; }
+  .square-item:nth-child(2) { width: 100%; height: 1vh; }
+  .square-item:nth-child(3) { width: 100%; height: 26vh; }
 }
 
-@media only screen and (max-width: 450px) {
-  .square { height: 65vh; }
-  .square-item:nth-child(1) { height: 100vh; }
-  .square-item:nth-child(2) { height: 15px; }
-  .square-item:nth-child(3) { height: 60vh; }
+@media only screen and (max-width: 414px) {
+  .square { flex-flow: column nowrap; height: 66vh; }
+  .square-item:nth-child(1) { width: 100%; height: 33vh; }
+  .square-item:nth-child(2) { width: 100%; height: 1vh; }
+  .square-item:nth-child(3) { width: 100%; height: 32vh; }
 }
 
 

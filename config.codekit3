@@ -91,6 +91,22 @@
 		"oAP": "/files/Drew-Goff-resume.docx",
 		"oF": 0
 		},
+	"/files/references/rec_drewgoff.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/references/rec_drewgoff.pdf",
+		"oF": 0
+		},
+	"/files/references/Reference Letter-Drew.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/references/Reference Letter-Drew.pdf",
+		"oF": 0
+		},
 	"/files/UXUI-Developer__Resume-2021.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1679,7 +1695,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/_variables.css",
+		"oAP": "/css/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1692,7 +1708,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_border.css",
+		"oAP": "/scss/css/_border.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1705,7 +1721,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_code.css",
+		"oAP": "/scss/css/_code.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1718,7 +1734,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_core.css",
+		"oAP": "/scss/css/_core.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1731,7 +1747,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_google-fonts.css",
+		"oAP": "/scss/css/_google-fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1744,7 +1760,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_mini-reset.css",
+		"oAP": "/scss/css/_mini-reset.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1757,7 +1773,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_photo.css",
+		"oAP": "/scss/css/_photo.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1770,7 +1786,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_shadows.css",
+		"oAP": "/scss/css/_shadows.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1783,7 +1799,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/base/_typography.css",
+		"oAP": "/scss/css/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1796,7 +1812,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_business-card.css",
+		"oAP": "/scss/css/_business-card.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1809,7 +1825,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_buttons.css",
+		"oAP": "/scss/css/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1822,7 +1838,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_modal-window.css",
+		"oAP": "/scss/css/_modal-window.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1835,7 +1851,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_ordered-list.css",
+		"oAP": "/scss/css/_ordered-list.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1848,7 +1864,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_path-card.css",
+		"oAP": "/scss/css/_path-card.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1861,20 +1877,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/_story-modal.css",
+		"oAP": "/scss/css/_story-modal.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
-		},
-	"/scss/dg__module-styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/dg__module-styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/scss/dg__module-styles.scss": {
 		"aP": 0,
@@ -1884,7 +1890,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/dg__module-styles.css",
+		"oAP": "/css/dg__module-styles.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1897,7 +1903,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_footer.css",
+		"oAP": "/scss/css/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1910,7 +1916,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_header.css",
+		"oAP": "/scss/css/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1923,7 +1929,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/_main.css",
+		"oAP": "/scss/css/_main.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1936,7 +1942,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/footer-structure/_footer-flexbox-containers.css",
+		"oAP": "/scss/layout/css/_footer-flexbox-containers.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1949,7 +1955,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/footer-structure/_footer-latest-lab.css",
+		"oAP": "/scss/layout/css/_footer-latest-lab.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1962,7 +1968,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/footer-structure/_footer-menu.css",
+		"oAP": "/scss/layout/css/_footer-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1975,7 +1981,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/footer-structure/_footer-social.css",
+		"oAP": "/scss/layout/css/_footer-social.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1988,7 +1994,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/footer-structure/_footer-title.css",
+		"oAP": "/scss/layout/css/_footer-title.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2001,7 +2007,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/header-navigation/_desktop-nav.css",
+		"oAP": "/scss/layout/css/_desktop-nav.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2014,7 +2020,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/header-navigation/_logo.css",
+		"oAP": "/scss/layout/css/_logo.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2027,7 +2033,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/header-navigation/_mobile-nav.css",
+		"oAP": "/scss/layout/css/_mobile-nav.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2040,7 +2046,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/header-navigation/_toggle-button-nav.css",
+		"oAP": "/scss/layout/css/_toggle-button-nav.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2053,7 +2059,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/main-structure/_article.css",
+		"oAP": "/scss/layout/css/_article.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2066,7 +2072,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/layout/main-structure/_section.css",
+		"oAP": "/scss/layout/css/_section.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2079,7 +2085,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/about/_about-pad-margin.css",
+		"oAP": "/scss/modules/css/_about-pad-margin.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2092,7 +2098,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/about/_emerge.css",
+		"oAP": "/scss/modules/css/_emerge.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2105,7 +2111,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/about/_pink-modal.css",
+		"oAP": "/scss/modules/css/_pink-modal.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2118,7 +2124,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/about/_q-and-a.css",
+		"oAP": "/scss/modules/css/_q-and-a.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2131,7 +2137,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/home/_intro-picture.css",
+		"oAP": "/scss/modules/css/_intro-picture.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2144,7 +2150,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/home/_portfolio-area.css",
+		"oAP": "/scss/modules/css/_portfolio-area.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2157,7 +2163,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/lab/_lab-area.css",
+		"oAP": "/scss/modules/css/_lab-area.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2170,7 +2176,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/lab/_lab-intro-text.css",
+		"oAP": "/scss/modules/css/_lab-intro-text.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2183,7 +2189,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/music/_music.css",
+		"oAP": "/scss/modules/css/_music.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2196,7 +2202,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/portfolio/_mobile.css",
+		"oAP": "/scss/modules/css/_mobile.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2209,7 +2215,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/resume/_resume-card.css",
+		"oAP": "/scss/modules/css/_resume-card.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2222,7 +2228,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/resume/_skill-cards.css",
+		"oAP": "/scss/modules/css/_skill-cards.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -4179,7 +4185,7 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"compilerType": 0,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
