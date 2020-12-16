@@ -110,19 +110,18 @@
   flex-flow: column nowrap;
   height: 70vh;
 }
-
 .wide-item:nth-child(1) { 
   width: 100%; 
-  height: 100vh; 
+  height: 100%; 
 }
 .wide-item:nth-child(2) { 
   background: linear-gradient(280deg, rgba(49,49,51,1) 20%, rgba(255,77,121,1) 100%); 
   width: 100%;
-  height: 25px; 
+  height: 2vh; 
 }
 .wide-item:nth-child(3) { 
   width: 100%;  
-  height: 60vh;
+  height: 68vh;
   padding: 10px 15px 10px 15px; 
   overflow: scroll;  
 }

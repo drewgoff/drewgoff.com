@@ -1616,18 +1616,18 @@ h3.polariod__title {
 
 .wide-item:nth-child(1) {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .wide-item:nth-child(2) {
   background: linear-gradient(280deg, #313133 20%, #ff4d79 100%);
   width: 100%;
-  height: 25px;
+  height: 2vh;
 }
 
 .wide-item:nth-child(3) {
   width: 100%;
-  height: 60vh;
+  height: 68vh;
   padding: 10px 15px 10px 15px;
   overflow: scroll;
 }
