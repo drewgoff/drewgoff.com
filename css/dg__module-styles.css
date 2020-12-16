@@ -1735,7 +1735,7 @@ h3.polariod__title {
     height: 26vh;
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 450px) {
   .square {
     flex-flow: column nowrap;
     height: 66vh;
