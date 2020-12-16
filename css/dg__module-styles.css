@@ -1644,11 +1644,11 @@ h3.polariod__title {
   }
 
   .wide-item:nth-child(2) {
-    height: 13px;
+    height: 1vh;
   }
 
   .wide-item:nth-child(3) {
-    height: 30vh;
+    height: 29vh;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1661,11 +1661,11 @@ h3.polariod__title {
   }
 
   .wide-item:nth-child(2) {
-    height: 13px;
+    height: 1vh;
   }
 
   .wide-item:nth-child(3) {
-    height: 33vh;
+    height: 32vh;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -1678,11 +1678,11 @@ h3.polariod__title {
   }
 
   .wide-item:nth-child(2) {
-    height: 15px;
+    height: 1vh;
   }
 
   .wide-item:nth-child(3) {
-    height: 42vh;
+    height: 41vh;
   }
 }
 /*  Story Modal square content

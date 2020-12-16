@@ -136,20 +136,20 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
  .wide { height: 60vh; }
  .wide-item:nth-child(1) { height: 30vh; }
- .wide-item:nth-child(2) { height: 13px; }
- .wide-item:nth-child(3) { height: 30vh; }
+ .wide-item:nth-child(2) { height: 1vh; }
+ .wide-item:nth-child(3) { height: 29vh; }
 }
 @media only screen and (max-width: 768px) {
   .wide { height: 60vh; }
   .wide-item:nth-child(1) { height: 27vh; }
-  .wide-item:nth-child(2) { height: 13px; }
-  .wide-item:nth-child(3) { height: 33vh; }
+  .wide-item:nth-child(2) { height: 1vh; }
+  .wide-item:nth-child(3) { height: 32vh; }
 }
 @media only screen and (max-width: 450px) {
   .wide { height: 67vh; }
   .wide-item:nth-child(1) { height: 25vh; }
-  .wide-item:nth-child(2) { height: 15px; }
-  .wide-item:nth-child(3) { height: 42vh; }
+  .wide-item:nth-child(2) { height: 1vh; }
+  .wide-item:nth-child(3) { height: 41vh; }
 }
 
 /*  Story Modal square content
