@@ -2534,17 +2534,14 @@ li.tracks {
   flex-flow: row wrap;
 }
 
-.skills-item:nth-child(1),
-.skills-item:nth-child(2),
-.skills-item:nth-child(3),
-.skills-item:nth-child(4),
-.skills-item:nth-child(5) {
+.skills-item:nth-child(1), .skills-item:nth-child(2), .skills-item:nth-child(3),
+.skills-item:nth-child(4), .skills-item:nth-child(5) {
   align-self: auto;
   background-image: linear-gradient(-180deg, #636367 0%, #56565a 100%);
   border-radius: 4px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   color: #f2f2f2;
-  flex: 0 1 205px;
+  flex-basis: 205px;
   margin: 7px;
   padding: 15px;
 }
@@ -2552,7 +2549,7 @@ li.tracks {
 li.skills {
   display: block;
   font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 400;
   letter-spacing: 0.5px;
   padding: 0.1rem 0 0.1rem 0;
