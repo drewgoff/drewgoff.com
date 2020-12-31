@@ -95,41 +95,41 @@
 @use "components/_story-modal.scss";
 
 //
-//===== MODULES =====
+//===== PAGES =====
 //
 
 // -- -picture -- //
-@use "modules/home/_intro-picture.scss";
+@use "pages/home/_intro-picture.scss";
 
 // -- portfolio-area -- //
-@use "modules/home/_portfolio-area.scss";
+@use "pages/home/_portfolio-area.scss";
 
 // -- pad-margin -- //
-@use "modules/about/_about-pad-margin.scss";
+@use "pages/about/_about-pad-margin.scss";
 
 // -- emerge -- //
-@use "modules/about/_emerge.scss";
+@use "pages/about/_emerge.scss";
 
 // -- q-and-a -- //
-@use "modules/about/_q-and-a.scss";
+@use "pages/about/_q-and-a.scss";
 
 // -- pink-modal -- //
-@use "modules/about/_pink-modal.scss";
+@use "pages/about/_pink-modal.scss";
 
 // -- lab-intro-text -- //
-@use "modules/lab/_lab-intro-text.scss";
+@use "pages/lab/_lab-intro-text.scss";
 
 // -- lab-area -- //
-@use "modules/lab/_lab-area.scss";
+@use "pages/lab/_lab-area.scss";
 
 // -- music -- //
-@use "modules/music/_music.scss";
+@use "pages/music/_music.scss";
 
 // -- skill-cards -- //
-@use "modules/resume/_skill-cards.scss";
+@use "pages/resume/_skill-cards.scss";
 
 // -- resume-card -- //
-@use "modules/resume/_resume-card.scss";
+@use "pages/resume/_resume-card.scss";
 
 // -- mobile -- //
-@use "modules/portfolio/_mobile.scss";
+@use "pages/portfolio/_mobile.scss";
