@@ -83,12 +83,28 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
-	"/files/Drew-Goff-resume.docx": {
+	"/files/design-technologist__drew-goff.docx": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/files/Drew-Goff-resume.docx",
+		"oAP": "/files/design-technologist__drew-goff.docx",
+		"oF": 0
+		},
+	"/files/design-technologist__drew-goff.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/design-technologist__drew-goff.pdf",
+		"oF": 0
+		},
+	"/files/references/drew-goff__references.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/files/references/drew-goff__references.pdf",
 		"oF": 0
 		},
 	"/files/references/rec_drewgoff.pdf": {
@@ -105,14 +121,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/files/references/Reference Letter-Drew.pdf",
-		"oF": 0
-		},
-	"/files/UXUI-Developer__Resume-2021.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/files/UXUI-Developer__Resume-2021.pdf",
 		"oF": 0
 		},
 	"/images/books/add.jpg": {
@@ -1687,19 +1695,6 @@
 		"oAP": "/resume.html",
 		"oF": 0
 		},
-	"/scss/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
 	"/scss/base/_border.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2077,7 +2072,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/about/_about-pad-margin.scss": {
+	"/scss/pages/about/_about-pad-margin.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2085,12 +2080,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_about-pad-margin.css",
+		"oAP": "/scss/pages/css/_about-pad-margin.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/about/_emerge.scss": {
+	"/scss/pages/about/_emerge.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2098,12 +2093,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_emerge.css",
+		"oAP": "/scss/pages/css/_emerge.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/about/_pink-modal.scss": {
+	"/scss/pages/about/_pink-modal.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2111,12 +2106,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_pink-modal.css",
+		"oAP": "/scss/pages/css/_pink-modal.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/about/_q-and-a.scss": {
+	"/scss/pages/about/_q-and-a.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2124,12 +2119,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_q-and-a.css",
+		"oAP": "/scss/pages/css/_q-and-a.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/home/_intro-picture.scss": {
+	"/scss/pages/home/_intro-picture.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2137,12 +2132,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_intro-picture.css",
+		"oAP": "/scss/pages/css/_intro-picture.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/home/_portfolio-area.scss": {
+	"/scss/pages/home/_portfolio-area.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2150,12 +2145,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_portfolio-area.css",
+		"oAP": "/scss/pages/css/_portfolio-area.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/lab/_lab-area.scss": {
+	"/scss/pages/lab/_lab-area.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2163,12 +2158,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_lab-area.css",
+		"oAP": "/scss/pages/css/_lab-area.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/lab/_lab-intro-text.scss": {
+	"/scss/pages/lab/_lab-intro-text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2176,12 +2171,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_lab-intro-text.css",
+		"oAP": "/scss/pages/css/_lab-intro-text.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/music/_music.scss": {
+	"/scss/pages/music/_music.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2189,12 +2184,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_music.css",
+		"oAP": "/scss/pages/css/_music.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/portfolio/_mobile.scss": {
+	"/scss/pages/portfolio/_mobile.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2202,12 +2197,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_mobile.css",
+		"oAP": "/scss/pages/css/_mobile.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/resume/_resume-card.scss": {
+	"/scss/pages/resume/_resume-card.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2215,12 +2210,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_resume-card.css",
+		"oAP": "/scss/pages/css/_resume-card.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/resume/_skill-cards.scss": {
+	"/scss/pages/resume/_skill-cards.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2228,7 +2223,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/modules/css/_skill-cards.css",
+		"oAP": "/scss/pages/css/_skill-cards.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/utilities/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

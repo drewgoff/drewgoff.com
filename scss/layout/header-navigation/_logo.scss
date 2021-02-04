@@ -2,21 +2,21 @@
 
 #logo {
   height: 80px;
-  margin-top: 1.3rem;
+  margin-top: 0.9rem;
   margin-left: 0.3em;
   width: 200px; }
 
 #name {  
   color: variables.$white;
   font-family: variables.$title-font;
-  font-size: 1.6em;
-  letter-spacing: 1px;
+  font-size: 1.8em;
+  letter-spacing: 2px;
   text-align: left; }
 
 #title {
   color: variables.$white-grey;
   font-family: variables.$body-font;
-  font-size: .720em;
+  font-size: .679em;
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 0;
@@ -30,5 +30,5 @@
 }
 
 @media only screen and (max-width: 767px)  {
- #logo  { margin-top: 0.65rem; }	
+ #logo  { margin-top: 0.38rem; }	
 }
